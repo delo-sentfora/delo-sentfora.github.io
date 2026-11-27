@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Дело Сентфора — фанатский разбор «Теней Сентфора 2»</title>
+<meta name="description" content="Люди, улики, теории и связь с первой частью. Спойлеры открываются по сериям: отметь, до какой дочитала.">
+<meta name="theme-color" content="#15181e">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Дело Сентфора">
+<meta property="og:title" content="Дело Сентфора — фанатский разбор «Теней Сентфора 2»">
+<meta property="og:description" content="Люди, улики, теории и связь с первой частью. Спойлеры открываются по сериям: отметь, до какой дочитала.">
+<meta property="og:image" content="https://delo-sentfora.vercel.app/og-2.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://delo-sentfora.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="0DHpX-jPzmvHfm42so0jIhFuqU0P2Ca3XthuXtRTX_w">
+<meta name="yandex-verification" content="5a2c34e1b091df97">
+<link rel="canonical" href="https://delo-sentfora.vercel.app/">
+<link rel="alternate" hreflang="ru" href="https://delo-sentfora.vercel.app/">
+<link rel="alternate" hreflang="x-default" href="https://delo-sentfora.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://delo-sentfora.vercel.app/en">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- приложение на телефон (PWA): без офлайн-кэша, чтобы у всех всегда была свежая версия -->
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Дело Сентфора">
+<script>/* плавная загрузка: при обновлении страницы сначала всё собираем, потом возвращаем на то же место и плавно показываем */try{var d=document.documentElement,r=(performance.getEntriesByType("navigation")[0]||{}).type,sy=JSON.parse(sessionStorage.getItem("sentfor_y")||"null");history.scrollRestoration="manual";d.classList.add("ld");if((r==="reload"||r==="back_forward")&&sy&&sy.y>150){d.classList.add("ld-all");window.SFy=sy}setTimeout(function(){d.classList.remove("ld","ld-all")},2500)}catch(e){}</script>
+<script>/* пока не загрузились скрипты, показываем только открытую вкладку: картинки остальных не качаются */try{var t=localStorage.getItem("sentfor_tab")||"people";if(/^[a-z0-9]+$/.test(t)){var s=document.createElement("style");s.id="tab0";s.textContent='section[data-tab]:not([data-tab="'+t+'"]){display:none}';document.head.appendChild(s);addEventListener("load",function(){s.remove()})}}catch(e){}</script>
+<link rel="stylesheet" href="fonts.css?v=df252ccc">
+<link rel="stylesheet" href="style.css?v=2cafd2cb">
+<link rel="stylesheet" href="poppy.css?v=87480e7e">
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<div class="hero-bg" aria-hidden="true"></div>
+<div class="wrap">
+<div id="stem" aria-hidden="true"></div>
+
+<header>
+  <div>
+    <div class="case">Дело № ТС2 · «Вне времени» · совершенно секретно</div>
+    <h1>Доска улик <span>Сентфора</span></h1>
+    <div class="status">
+      <span>Разобрано: <b>серии 1–23</b></span>
+      <span>Обновлено: <b>22 ноября</b></span>
+    </div>
+    <div class="hdr-row"><button class="old-btn" id="old-btn" type="button" hidden>В Старый Сентфор</button>
+    <a class="lang-btn" href="en" hreflang="en">EN</a>
+    <a class="tg-btn" href="https://t.me/delo_sentfora" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.5 4.3 2.9 11.5c-1.3.5-1.3 1.2-.2 1.6l4.8 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.4-1.5zM9.6 14.8l-.4 3.7-1.4-4.5 10.4-6.6-8.6 7.4z"/></svg>Телеграм-канал</a>
+    <details class="don" id="don"><summary class="don-btn">♥ Поддержать</summary>
+    <div class="don-panel"><h4>Поддержать сайт</h4><p>Донаты идут на хостинг и новые разделы. Спасибо, что читаете ♥</p>
+    <a class="don-opt boosty" href="https://boosty.to/delo_sentfora" target="_blank" rel="noopener"><b>Boosty</b><span>из России и Беларуси</span><small>Нужно войти в Boosty (почта или ВК). Белорусская карта — Visa или Mastercard в долларах или евро</small></a>
+    <a class="don-opt kofi" href="https://ko-fi.com/delosentfora" target="_blank" rel="noopener"><b>Ko-fi</b><span>из других стран</span><small>Карта или PayPal</small></a>
+    <a class="don-opt stars" href="https://t.me/delo_sentfora" target="_blank" rel="noopener"><b>Звёзды в Телеграме</b><span>откуда угодно</span><small>Если карта не прошла: ⭐ под любым постом канала</small></a>
+    </div></details>
+    <div class="egg-wrap"><button class="egg-meter" id="egg-meter" type="button" aria-expanded="false" aria-controls="egg-panel"><span class="em-lbl">Пасхалки</span><b>0 / 0</b><span class="em-dots"></span></button>
+    <div class="egg-panel" id="egg-panel" hidden><h4>Пасхалки</h4><ol id="egg-list"></ol><p id="egg-more" hidden></p><button type="button" class="egg-reset" id="egg-reset" hidden>Сбросить находки</button></div></div></div>
+  </div>
+  <div class="vcr" aria-label="Часы видеомагнитофона на обложках: 02:59">
+    <div class="vcr-time">02<i>:</i>59</div>
+    <div class="vcr-lbl">стоят на всех обложках · серии 1–23</div>
+  </div>
+</header>
+<div class="spoil"><b>Осторожно, спойлеры.</b> Здесь разобраны серии 1–23 второй части и весь сюжет первой «Теней Сентфора», включая концовки.</div>
+<div class="epbar" role="group" aria-label="До какой серии ты дочитал(а)"><span class="lbl">Я дочитал(а) до серии</span><div id="ep-btns"></div><span id="ep-name"></span><span id="ep-note" hidden></span><span class="lbl">Всё, что дальше, скрыто.</span><nav class="tabs" id="tabs" role="tablist" aria-label="Разделы дела"><button type="button" role="tab" class="tab" data-tab="people" aria-controls="tab-people">Люди</button><button type="button" role="tab" class="tab" data-tab="weird" aria-controls="tab-weird">Необъяснимое</button><button type="button" role="tab" class="tab" data-tab="shadow" aria-controls="tab-shadow" data-from="20" hidden>Тень</button><button type="button" role="tab" class="tab" data-tab="evidence" aria-controls="tab-evidence">Улики</button><button type="button" role="tab" class="tab tab-pred" data-tab="pred" aria-controls="tab-pred">Прогнозы</button><button type="button" role="tab" class="tab" data-tab="threads" aria-controls="tab-threads">Доска улик</button><button type="button" role="tab" class="tab" data-tab="gazeta" aria-controls="tab-gazeta" hidden>Газета</button><button type="button" role="tab" class="tab" data-tab="questions" aria-controls="tab-questions">Вопросы</button><button type="button" role="tab" class="tab" data-tab="theories" aria-controls="tab-theories">Теории</button><button type="button" role="tab" class="tab" data-tab="ts1lore" aria-controls="tab-ts1lore">ТС1</button><button type="button" role="tab" class="tab" data-tab="ts1" aria-controls="tab-ts1">Связь с ТС1</button><button type="button" role="tab" class="tab" data-tab="game" aria-controls="tab-game">Игра</button></nav></div>
+
+
+
+<!-- PEOPLE -->
+<section data-tab="people" id="tab-people">
+  <h2>Люди</h2>
+  <p class="lead">Нажми на человека, чтобы открыть досье: что о нём известно по сериям и с кем он связан.</p>
+  <div class="look-bar"><div class="lb-faces"><img id="lb-nadin" alt="Твоя Надин"><img id="lb-dex" alt="Твой Декс"></div><p>Надин и Декс выглядят так, как в твоей игре. Её семья подстраивается под её внешность.</p><button class="look-open" id="look-open" type="button">Изменить внешность</button></div>
+  <h3 class="sub plain" id="present-h" hidden>Из настоящего</h3>
+  <div class="pins" id="people"></div>
+  <div class="past-block" id="past-wrap" hidden><h3 class="sub plain">Из прошлого</h3><div class="pins" id="people-past"></div></div>
+</section>
+
+<!-- CREATURES -->
+<!-- BOARD -->
+<section data-tab="gazeta" id="tab-gazeta" hidden>
+  <h2>Газета «Тени Сентфора»</h2>
+  <p class="lead">Школьная газета, которую делают Надин и Миранда. Новые выпуски открываются по сериям.</p>
+  <div id="gz-list" class="gz-list"></div>
+</section>
+<section data-tab="pred" id="tab-pred" hidden>
+  <h2>Прогнозы к обнове</h2>
+  <p class="lead" data-from="23">Серии 20–23 вышли. Смотри, что сбылось, таблицу провидцев и своё звание. Долгие ставки засчитаем, когда раскроют ответ.</p>
+  <p class="lead" data-from="19" data-until="23">Скорее всего, 22 ноября выйдут серии 20–23. Сделай ставки до субботы 21-го, 15:00 по Москве: после выхода серий проверим, кто угадал. Пока не нажмёшь «Подтвердить», ответы можно менять. Проценты других откроются после подтверждения.</p>
+  <div class="pr-lock" data-until="19"><b>Сначала дочитай до 19-й серии</b><p>Здесь спойлеры ко всему, что уже вышло. Выбери 19-ю серию вверху, и прогнозы откроются.</p></div>
+  <div id="pred" class="pred" data-from="19"></div>
+</section>
+<section data-tab="threads" id="tab-threads" hidden>
+  <h2>Доска улик</h2>
+  <p class="lead">Твоя доска следователя. Прикрепляй героев, улики, скрины, стикеры и штампы, связывай нитками и строй свою версию. Доска открывается во весь экран.</p>
+  <div id="inv"></div>
+</section>
+
+<section data-tab="weird" id="tab-weird">
+  <h2>То, что нельзя объяснить</h2>
+  <p class="lead im-hint"><span class="h-hov">Наведи на фото, чтобы прочитать, что известно. Нажми, чтобы открыть крупнее.</span><span class="h-tap">Нажми на фото, чтобы узнать больше.</span></p>
+  <div class="torch-head"><p>Здесь темно. Свети фонариком.</p><button class="torch-btn" id="torch-btn" type="button" aria-pressed="false">Включить свет</button></div>
+  <div class="torch-zone" id="torch">
+  <div class="pins">
+    <div class="item" data-ep="1"><figure class="pol"><img src="img/rooted_boy.webp" alt="Парень, сквозь которого прорастают цветы" loading="lazy"><span class="stamp threat">заражён</span><figcaption>Парень из пролога</figcaption></figure><p class="note"><span class="ep">с.1</span> Один из тех, кого Говард отправил в зону. Кто он? <em class="pen" data-from="16">Льюис Холт?</em></p></div>
+    <div class="item" id="w-shadow" data-ep="1"><figure class="pol"><img src="img/shadow.webp" alt="Тень" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Тень</figcaption></figure><p class="note"><span class="ep">с.1</span> Не та ли это тень, что преследует Миранду? Теперь её видит и Надин. <button class="egg" type="button" data-egg="vernulsya" aria-label="Что-то нацарапано на плитке">он вернулся</button></p></div>
+    <div class="item" data-ep="2"><figure class="pol"><img src="img/drawing.webp" alt="Рисунок Миранды" loading="lazy"><span class="stamp threat">тень?</span><figcaption>Рисунок Миранды</figcaption></figure><p class="note"><span class="ep">с.2</span> Так Миранда нарисовала свою тревогу. Та же фигура с белыми глазами, что стояла в кабинке.</p></div>
+    <div class="item" id="w-door" data-ep="2"><figure class="pol"><img src="img/miranda_door2.webp" alt="Миранда в дверях" loading="lazy"><span class="stamp threat">не она?</span><figcaption>Миранда в дверях</figcaption></figure><p class="note"><span class="ep">с.2</span> Из дома тянет едким сладким запахом. Лицо меняется на глазах. Это ещё Миранда?</p></div>
+    <div class="item" data-ep="2"><figure class="pol"><img src="img/miranda_porch.webp" alt="Миранда в дверном проёме" loading="lazy"><span class="stamp threat">не она?</span><figcaption>На крыльце</figcaption></figure><p class="note"><span class="ep">с.2</span> Стоит в проёме под дождём и не двигается. Чего она ждёт?</p></div>
+    <div class="item" data-ep="2"><figure class="pol"><img src="img/door_night.webp" alt="Силуэт за дверью" loading="lazy"><figcaption>Силуэт за дверью</figcaption></figure><p class="note"><span class="ep">с.2</span> Миранды больше нет… Но кто стоит за стеклом?</p></div>
+    <div class="item" id="w-creature" data-ep="3"><figure class="pol"><img src="img/creature.webp" alt="Нечто" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Нечто (путь смелости)</figcaption></figure><p class="note"><span class="ep">с.3</span> «У меня двенадцать рук… Кто-то скоро всех убьёт». Он предупреждает… или говорит о себе?</p></div>
+    <div class="item" id="w-creature2" data-ep="3"><figure class="pol"><img src="img/creature_c.webp" alt="Нечто в туалете на пути осторожности" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Нечто (путь осторожности)</figcaption></figure><p class="note"><span class="ep">с.3</span> «Ты да я. Я да ты… Мы с тобой срастёмся кожей». А потом просит выпустить.</p></div>
+    <div class="item" data-ep="4"><figure class="pol"><img src="img/unknown.webp" alt="Надин со спины на фото от Неизвестного" loading="lazy"><span class="stamp q">кто?</span><figcaption>Фото от Неизвестного</figcaption></figure><p class="note"><span class="ep">с.4</span> Надин со спины, снято прямо сейчас. Коридор пуст… Кто держал телефон?</p></div>
+    <div class="item" id="w-voice" data-ep="4"><figure class="pol"><img src="img/whisper.webp" alt="Шкафчик Миранды и морозник" loading="lazy" id="whisper-img"><button class="mirror" id="mirror" type="button" aria-label="Зеркальце в шкафчике"><img loading="lazy" src="img/shadow.webp" alt=""></button><figcaption>Зовущий голос</figcaption></figure><p class="note"><span class="ep"><span data-until="5">с.4</span><span data-from="5">с.4–5</span></span> Шепчет у шкафчика Миранды. Зовёт… но куда?</p></div>
+    <div class="item" data-ep="4"><figure class="pol"><img src="img/monsters.webp" alt="Двое с корнями" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Двое с корнями</figcaption></figure><p class="note"><span class="ep">с.4</span> Вместо рук и ног корни. Те же, что проросли через парня из пролога?</p></div>
+    <div class="item" data-ep="5"><figure class="pol wide"><img src="img/miranda_shadow.webp" alt="Тень за Мирандой" loading="lazy" style="object-position:40% 50%"><figcaption>Тень за Мирандой</figcaption></figure><p class="note"><span class="ep">с.5</span> Глазами никто ничего не видел. Но плёнка запомнила, кто стоял за Мирандой.</p></div>
+    <div class="item" id="w-junk" data-ep="5"><figure class="pol"><img src="img/junk_shadow.webp" alt="Тень с белыми глазами за трейлером на свалке" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Тень на свалке</figcaption></figure><p class="note"><span class="ep">с.5</span> Пахнет сладко, как морозник. Элис рядом и ничего не видит. <em class="pen" data-until="8">Та же, что на фото за Мирандой?</em><em class="pen" data-from="8">Как раз там, где потом нашли Тома.</em></p></div>
+    <div class="item" data-ep="6"><figure class="pol"><img src="img/deer.webp" alt="Заражённый олень с цветами на рогах" loading="lazy"><span class="stamp threat">заражён</span><figcaption>Олень</figcaption></figure><p class="note"><span class="ep">с.6</span> Что он делает в городе, а не в Старом Сентфоре?</p></div>
+    <div class="item" data-ep="6"><figure class="pol"><img src="img/watchers.webp" alt="Красные глаза в кроне и лицо за стволом" loading="lazy"><figcaption>Кто-то в деревьях</figcaption></figure><p class="note"><span class="ep">с.6</span> Надин их не заметила. Кто это? И давно они там?</p></div>
+    <div class="item" id="w-miranda6" data-ep="6"><figure class="pol"><img src="img/miranda_dark.webp" alt="Миранда в красном свете проявочной" loading="lazy"><figcaption>Миранда</figcaption></figure><p class="note"><span class="ep">с.6</span> «Он тебя ищет».</p></div>
+    <div class="item" data-ep="6" data-until="7"><figure class="pol"><img src="img/storozh_blood.webp" alt="Сторож в крови" loading="lazy"><figcaption>Сторож</figcaption></figure><p class="note"><span class="ep">с.6</span> «Хотели, чтобы я вышел поиграть?»</p></div>
+    <div class="item" id="w-mirror" data-ep="9"><figure class="pol"><img src="img/mirror9.webp" alt="Разбитое зеркало, за трещинами чёрные волосы" loading="lazy"><figcaption>Зеркало в подвале</figcaption></figure><p class="note"><span class="ep">с.9</span> По стеклу сверху ползут чьи-то чёрные волосы, которые пахнут клубникой.</p></div>
+    <div class="item" id="w-mom" data-ep="10"><figure class="pol"><img src="img/mom_grin.webp" alt="Мама Надин скалится" loading="lazy"><span class="stamp threat">сон?</span><figcaption>Мама у лестницы</figcaption></figure><p class="note"><span class="ep">с.10</span> Стоит и молча скалится.</p></div>
+    <div class="item" id="w-bed" data-ep="10"><figure class="pol"><img src="img/underbed.webp" alt="Существо под кроватью" loading="lazy"><span class="stamp threat">сон?</span><figcaption>Под кроватью</figcaption></figure><p class="note"><span class="ep">с.10</span> «Диспетчер» 112 велит спрятаться под кровать. А там уже кто-то есть.</p></div>
+    <div class="item" id="w-woman" data-ep="11"><figure class="pol"><img src="img/woman11.webp" alt="Женщина у ворот Говарда" loading="lazy"><span class="stamp threat" data-from="16">угроза</span><figcaption>Женщина у ворот</figcaption></figure><p class="note"><span class="ep">с.11</span> Повторяет слова из сна Надин. Пахнет нафталином. Поппи её не видела.</p><p class="note" data-from="16"><span class="ep">с.16</span> В 1986 году бродит по Сентфору. Заманила Надин к люку с кипятком: «Здесь тебе быть нельзя. Ты чужачка. Он мне сказал». Родных у неё нет, бродит по городу не первый год.</p></div>
+    <div class="item" id="w-object" data-ep="11"><figure class="pol"><img src="img/object11.webp" alt="Объект сдирает лицо" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Объект</figcaption></figure><p class="note"><span class="ep">с.11</span> То, что за кадром снимка со свалки. Сдирает с кого-то лицо. На виске дыра от пули. «Нужен жирный, осязаемый контур… ЖРАТЬ». Старики и взрослые ему не годятся, «в них не осталось тепла». А «добыча близко, но трогать её — смерть». <em class="pen">Это Том?</em></p></div>
+    <div class="item" id="w-ghost" data-ep="12"><figure class="pol"><img src="img/ghost12.webp" alt="Призрачная девочка у книжных полок" loading="lazy"><figcaption>Призрак в библиотеке</figcaption></figure><p class="note"><span class="ep">с.12</span> Сидит у полок в библиотеке. Детский шёпот слышала и Элис.</p><p class="note"><span class="ep">с.12</span> Голос оказался розыгрышем Поппи: «Услышала твою милую детскую байку. Не смогла удержаться». Но голос объясняет только шёпот. Девочку у полок видела одна Надин, Элис её не разглядела. Может, её дорисовало воображение после листовки с пропавшей девочкой. <em class="pen">Розыгрыш или нет?</em></p></div>
+    <div class="item" id="w-archive" data-ep="12"><figure class="pol"><img src="img/archive_girl12.webp" alt="Девочка в проходе полицейского архива" loading="lazy"><figcaption>Девочка в архиве</figcaption></figure><p class="note"><span class="ep">с.12</span> Стоит в проходе, на полу мячик. Элис её не видит. <em class="pen">Это девочка с листовки?</em></p></div>
+    <div class="item" id="w-guilt" data-ep="13"><figure class="pol"><img src="img/guilt13.webp" alt="Надпись кровью на шкафчике" loading="lazy"><figcaption>«Это всё твоя вина»</figcaption></figure><p class="note"><span class="ep">с.13</span> Кровью на шкафчике.</p></div>
+    <div class="item" id="w-kids" data-ep="13"><figure class="pol wide"><img src="img/kids13.webp" alt="Дети-тени с белыми глазами" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Дети в темноте</figcaption></figure><p class="note"><span class="ep">с.13</span> <i>«В чёрный, цепкий, дикий лес,<br>Где во тьме таится бес…<br>Мальчик вышел погулять…<br>Бесполезно его звать!»</i></p></div>
+    <div class="item" id="w-fakepoppy" data-ep="13"><figure class="pol"><img src="img/fakepoppy13.webp" alt="Тень с волосами-щупальцами" loading="lazy"><span class="stamp threat">угроза</span><figcaption>«Поппи»</figcaption></figure><p class="note"><span class="ep">с.13</span> «Всегда была здесь. У тебя за спиной». Настоящая Поппи ничего не видела.</p></div>
+    <div class="item" id="w-curtain" data-ep="14"><figure class="pol"><img src="img/curtain14.webp" alt="Лицо и рука за шторой" loading="lazy" style="object-position:center 40%"><figcaption>За шторой</figcaption></figure><p class="note"><span class="ep">с.14</span> Кто-то стоит за шторой и двигается вместе с Надин.</p></div>
+    <div class="item" id="w-rink" data-ep="14"><figure class="pol"><img src="img/rink14.webp" alt="Снимок роллердрома: из пола тянутся руки" loading="lazy"><figcaption>Снимок роллердрома</figcaption></figure><p class="note"><span class="ep">с.14</span> Площадка была пустой. На фото — руки и череп.</p></div>
+    <div class="item" id="w-candy" data-ep="15"><figure class="pol"><img src="img/candy15.webp" alt="Девочка в инвалидной коляске с куклой" loading="lazy"><figcaption>Девочка в коляске</figcaption></figure><p class="note"><span class="ep">с.15</span> В больнице Старого Сентфора. «Они говорят, ты сумасшедшая… Как и я». <em class="pen">Это Кэнди.</em></p></div>
+    <div class="item" id="w-tower" data-ep="15"><figure class="pol"><span class="hs"><img src="img/tower_inside.webp" alt="Башня изнутри: лестницы и десятки арок" loading="lazy"><button class="tdoor" id="tdoor" type="button" aria-label="Дверь в башне"></button><form class="tyear" id="tyear" hidden><input inputmode="numeric" maxlength="4" placeholder="год?" aria-label="Какой год за дверью?"><button type="submit" aria-label="Открыть дверь">→</button></form></span><figcaption>Башня изнутри</figcaption></figure><p class="note"><span class="ep">с.15</span> Лестница уходит прямо в небо, вокруг десятки дверей. Одна из них привела Надин в 1986 год.</p></div>
+    <div class="item" id="w-statue" data-ep="16"><figure class="pol"><img src="img/statue16.webp" alt="Деревянная статуя с рогами в тумане" loading="lazy"><figcaption>Статуя в лесу</figcaption></figure><p class="note"><span class="ep">с.16</span> В лесу 1986 года. Деревянная, с рогами, тело в древних узорах. <em class="pen">Фавн.</em></p></div>
+    <div class="item" id="w-malcolm" data-ep="16"><figure class="pol"><img src="img/malcolm16b.webp" alt="Малкольм в башне кричит" loading="lazy"><span class="stamp threat">угроза</span><figcaption>«Малкольм» в башне</figcaption></figure><p class="note"><span class="ep">с.16</span> «Выпусти». «Я голоден».</p></div>
+    <div class="item" id="w-whisper" data-ep="17"><figure class="pol"><img src="img/whisper17.webp" alt="Тёмная фигура с длинными волосами за спиной Надин" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Голос в голове</figcaption></figure><p class="note"><span class="ep">с.17</span> Стоит за спиной и подталкивает Надин наложить на себя руки.</p></div>
+    <div class="item" id="w-deadnadin" data-ep="17"><figure class="pol"><img src="img/deadnadin17.webp" alt="Надин с мёртвыми глазами и морозником на лице" loading="lazy"><figcaption>Мёртвая Надин</figcaption></figure><p class="note"><span class="ep">с.17</span> Надин видит себя мёртвой, проросшей морозником.</p></div>
+    <div class="item" id="w-double" data-ep="18"><figure class="pol"><img src="img/double18.webp" alt="Кто-то в кровати рядом с Надин" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Кто-то в кровати</figcaption></figure><p class="note"><span class="ep">с.18</span> «Тебе не нравится со мной спать?» Утром под подушкой цветы морозника.</p></div>
+    <div class="item" id="w-veins" data-ep="18"><figure class="pol"><img src="img/veins18.webp" alt="Комната Надин, оплетённая венами" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Вены в комнате (42 осторожности)</figcaption></figure><p class="note"><span class="ep">с.18</span> Поппи ночует у Надин, а стены и кровать оплетают вены.</p></div>
+    <div class="item" id="w-ceiling" data-ep="18"><figure class="pol"><img src="img/ceiling18.webp" alt="Существо с жёлтыми глазами на потолке коридора" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Существо на потолке (42 осторожности)</figcaption></figure><p class="note"><span class="ep">с.18</span> В коридоре на потолке сидит существо с жёлтыми глазами. Кто это?</p></div>
+    <div class="item" id="w-jimmy" data-ep="19"><figure class="pol"><img src="img/jimmy19.webp" alt="Окно в комнате, за стеклом что-то огромное" loading="lazy"><span class="stamp threat">угроза</span><figcaption>«К-кто это?»</figcaption></figure><p class="note"><span class="ep">с.19</span> Это увидел Джимми. Щелчок плёночной камеры Элис его отогнал. <em class="pen">Не только Надин.</em></p></div>
+    <div class="item" id="w-chest" data-ep="20"><figure class="pol"><img src="img/chest20b_ea.webp" data-fam="chest20" alt="Лицо с длинными чёрными волосами и открытым ртом" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Тварь на груди</figcaption></figure><p class="note"><span class="ep">с.20</span> Надин снится дедушка, она кричит во сне. Проснувшись, слышит, как кто-то повторяет её слова, а потом это падает ей на грудь. Она успевает снять его со вспышкой. <em class="pen">Утром ей легко: ушло?</em></p></div>
+    <div class="item" id="w-fakejimmy" data-ep="20"><figure class="pol"><img src="img/fakejimmy20.webp" data-fam="fakejimmy20" alt="Джимми с чёрными глазами и цветами морозника на лице" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Ненастоящий Джимми</figcaption></figure><p class="note"><span class="ep">с.20</span> В лесу у лагеря. Плоский, «будто картонная фигура». Детский голос дразнит: «А Джимми здесь нет…», с дерева падает отрубленная рука, а потом у Джимми загораются глаза.</p></div>
+<div class="item" id="w-cartoon" data-ep="22" data-film="video/cartoon22_v4" data-film-cred="Видео: @pisadeira_cr · озвучка: автор сайта"><figure class="pol"><img src="img/cartoon22p.webp" data-vid="video/cartoon22" alt="Две марионетки на экране телевизора" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Мультик для Джимми</figcaption></figure><p class="note"><span class="ep">с.22</span> Телевизор в заброшенном доме говорит голосом Джимми: «Нашей целью будет освободить сестру от зла». Дальше по шагам, как ударить её битой. «Самый сладкий миг, напитайтесь им как следует!» Надин видела пустой экран.</p><p class="note film-cred">🎬 Мультик оживил канал <a href="https://t.me/pisadeira_cr" target="_blank" rel="noopener">@pisadeira_cr</a>, озвучка — автор сайта.</p></div>
+<div class="item" id="w-grey" data-ep="22"><figure class="pol"><img src="img/grey22c.webp" alt="Серое существо в тёмной гостиной" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Серые за спиной</figcaption></figure><p class="note"><span class="ep">с.22</span> За спиной у Джимми стоят серые существа. Он кивает кому-то и повторяет: «Он не хочет вредить, но выбора не останется». Надин: «Тут никого нет, Джимми».</p></div>
+<div class="item" id="w-eyes22" data-ep="22"><figure class="pol"><img src="img/eyes22.webp" alt="Тень с горящими глазами в углу" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Тень добралась</figcaption></figure><p class="note"><span class="ep">с.22</span> В углу тень с горящими глазами, дверь сама захлопывается. Наверху у Джимми гаснет фонарик, губы синеют. Надин надевает на него свой, и чернота срывается с его плеч.</p></div>
+<div class="item" id="w-faces" data-ep="22"><figure class="pol"><img src="img/faces22b.webp" alt="Четыре мёртвых лица" loading="lazy"><span class="stamp threat">угроза</span><figcaption>Тень с четырьмя лицами</figcaption></figure><p class="note"><span class="ep">с.22</span> В башне тень меняет облик: парень в косухе, девушка с кудрями, длинноволосый блондин, парень в шапке. Надин: «Нельзя освобождать эту тварь. Иначе всё повторится».</p></div>
+<div class="item" id="w-tomb" data-ep="23"><figure class="pol"><img src="img/tomb23.webp" alt="Каменный гроб с трещиной в склепе" loading="lazy"><span class="stamp q">кто?</span><figcaption>Треснувший гроб</figcaption></figure><p class="note"><span class="ep">с.23</span> Самый последний кадр серии. Каменный гроб в склепе, стены оплетены цветами, в окно светит луна. По крышке бежит трещина.</p></div>
+  </div>
+  <button class="bear" id="bear" type="button" hidden aria-label="Розовый плюшевый медведь"><svg viewBox="0 0 60 74" aria-hidden="true"><g stroke="#8c4766" stroke-width="1.1"><circle cx="15" cy="12" r="7" fill="#e48fb6"/><circle cx="45" cy="12" r="7" fill="#d9799f"/><circle cx="15" cy="12" r="3.4" fill="#f4bdd3"/><circle cx="45" cy="12" r="3.4" fill="#f4bdd3"/><ellipse cx="13" cy="44" rx="7" ry="11" fill="#d9799f" transform="rotate(25 13 44)"/><ellipse cx="47" cy="44" rx="7" ry="11" fill="#e48fb6" transform="rotate(-25 47 44)"/><ellipse cx="20" cy="66" rx="9" ry="7" fill="#e48fb6"/><ellipse cx="40" cy="66" rx="9" ry="7" fill="#d9799f"/><ellipse cx="30" cy="48" rx="15" ry="17" fill="#ea9cc0"/><circle cx="30" cy="22" r="15" fill="#ea9cc0"/><ellipse cx="30" cy="27" rx="7" ry="5.5" fill="#f6c9db"/></g><circle cx="24" cy="19" r="2.3" fill="#2a1d24"/><path d="M34 17l4 4M38 17l-4 4" stroke="#2a1d24" stroke-width="1.4" stroke-linecap="round"/><path d="M28 25.5h4l-2 2z" fill="#5a2a3e"/><path d="M30 27.5v2.2M27.5 30q2.5 1.6 5 0" stroke="#5a2a3e" stroke-width="1" fill="none"/><rect x="23" y="43" width="14" height="11" rx="2.5" fill="#c9c4c8" stroke="#7d6f78" stroke-width=".8"/><path d="M25.5 46h9M25.5 48.5h9M25.5 51h9" stroke="#5f5660" stroke-width=".9"/><path d="M42 56l3 1M43 59l3 0M41 61.5l3-.5" stroke="#8c4766" stroke-width=".8"/></svg></button>
+  <div class="torch-veil" aria-hidden="true"></div>
+  </div>
+</section>
+
+<section data-tab="shadow" id="tab-shadow" data-from="20">
+  <div class="sh-hero"><img class="sh-fig" src="img/chest20b_ea.webp" data-fam="chest20" alt="" aria-hidden="true">
+  <p class="sh-kicker">Дело № ТС2 · досье · не открывать</p>
+  <h2 class="sh-title">Тень</h2>
+  <p class="lead">Всё, что известно о том, что ходит за Надин. Нажми на ссылку, чтобы открыть карточку, из которой это взято.</p></div>
+
+  <h3 class="sh-h">Что известно</h3>
+  <div class="sh-rules">
+    <div class="sh-rule" data-from="1"><b>Всегда рядом</b>
+      <p data-from="1"><span class="ep">с.1</span> Тень с белыми глазами в кабинке школьного туалета. <a href="#" class="sh-go" data-item="w-shadow">Тень</a></p>
+      <p data-from="5"><span class="ep">с.5</span> На снимке Элис за Мирандой стоит тень, хотя рядом никого не было. <a href="#" class="sh-go" data-item="e-lastday">Последний день Миранды</a></p>
+      <p data-from="13"><span class="ep">с.13</span> «Всегда была здесь. У тебя за спиной». <a href="#" class="sh-go" data-item="w-fakepoppy">«Поппи»</a></p>
+      <p data-from="17"><span class="ep">с.17</span> Подталкивает Надин наложить на себя руки. <a href="#" class="sh-go" data-item="w-whisper">Голос в голове</a></p>
+      <p data-from="20"><span class="ep">с.20</span> Надин призналась друзьям: всё это время оно нашёптывало, что лучше умереть.</p>
+    </div>
+    <div class="sh-rule" data-from="2"><b>Следы морозника</b>
+      <p data-from="2"><span class="ep">с.2</span> Из дома Миранды тянет едким сладким запахом. <a href="#" class="sh-go" data-item="w-door">Миранда в дверях</a></p>
+      <p data-from="4"><span class="ep">с.4</span> В закрытом шкафчике Миранды чёрный морозник. <a href="#" class="sh-go" data-item="e-hellebore">Чёрный морозник</a></p>
+      <p data-from="5"><span class="ep">с.5</span> Тень на свалке пахнет сладко, как морозник. <a href="#" class="sh-go" data-item="w-junk">Тень на свалке</a></p>
+      <p data-from="18"><span class="ep">с.18</span> После того, кто лежал в кровати, под подушкой цветы морозника. <a href="#" class="sh-go" data-item="w-double">Кто-то в кровати</a></p>
+      <p data-from="21"><span class="ep">с.21</span> Надин понимает: цветок появляется сам, когда тварь рядом. Так было у неё, у Миранды, а теперь у Джимми.</p>
+    </div>
+    <div class="sh-rule" data-from="3"><b>Просит выпустить</b>
+      <p data-from="3"><span class="ep">с.3</span> «Мы с тобой срастёмся кожей». А потом просит выпустить. <a href="#" class="sh-go" data-item="w-creature2">Нечто</a></p>
+      <p data-from="16"><span class="ep">с.16</span> «Малкольм» в башне: «Выпусти». <a href="#" class="sh-go" data-item="w-malcolm">«Малкольм» в башне</a></p>
+    </div>
+    <div class="sh-rule" data-from="5"><b>Видят не все</b>
+      <p data-from="5"><span class="ep">с.5</span> Элис стоит рядом с тенью на свалке и ничего не видит. <a href="#" class="sh-go" data-item="w-junk">Тень на свалке</a></p>
+      <p data-from="19"><span class="ep">с.19</span> Впервые её увидел кто-то, кроме Надин: Джимми. <a href="#" class="sh-go" data-item="w-jimmy">«К-кто это?»</a></p>
+    </div>
+    <div class="sh-rule" data-from="11"><b>Голодна</b>
+      <p data-from="11"><span class="ep">с.11</span> «Нужен жирный, осязаемый контур… ЖРАТЬ». Старики ему не годятся, «в них не осталось тепла». <a href="#" class="sh-go" data-item="w-object">Объект</a></p>
+      <p data-from="16"><span class="ep">с.16</span> «Малкольм» в башне: «Я голоден». <a href="#" class="sh-go" data-item="w-malcolm">«Малкольм» в башне</a></p>
+      <p data-from="20"><span class="ep">с.20</span> Поппи: среди жертв только молодые. Надин: «Потому что оно нами питается».</p>
+      <p data-from="22"><span class="ep">с.22</span> «Самый сладкий миг, напитайтесь им как следует!» <a href="#" class="sh-go" data-item="w-cartoon">Мультик для Джимми</a></p>
+    </div>
+    <div class="sh-rule" data-from="11"><b>Надин не трогает?</b>
+      <p data-from="11"><span class="ep">с.11</span> «Добыча близко, но трогать её — смерть». <a href="#" class="sh-go" data-item="w-object">Объект</a></p>
+      <p data-from="22"><span class="ep">с.22</span> Надин закрывает Джимми собой: «Думаю, оно меня боится… я не уверена».</p>
+    </div>
+    <div class="sh-rule" data-from="11"><b>Своё поле</b>
+      <p data-from="11"><span class="ep">с.11</span> В анкетах у Говарда: «Родственное магнитное поле с Объектом 1». <a href="#" class="sh-go" data-item="e-forms">Анкеты «объектов»</a></p>
+      <p data-from="21"><span class="ep">с.21</span> Рядом с Джимми измеритель Даррена пищит. Поле непостоянное, «как и у башни».</p>
+    </div>
+    <div class="sh-rule" data-from="19"><b>Боится вспышки</b>
+      <p data-from="19"><span class="ep">с.19</span> Тварь в окне отогнал щелчок плёночной камеры Элис. <a href="#" class="sh-go" data-item="w-jimmy">«К-кто это?»</a></p>
+      <p data-from="20"><span class="ep">с.20</span> Надин сняла её ночью со вспышкой, и утром тень ушла. <a href="#" class="sh-go" data-item="w-chest">Тварь на груди</a></p>
+      <p data-from="21"><span class="ep">с.21</span> На видео Поппи с Мирандой тень не показалась, оно снято со вспышкой. А на плёнке Элис без вспышки проступила чётко. <a href="#" class="sh-go" data-item="e-poppyvideo">Видео от Поппи</a></p>
+      <p data-from="21"><span class="ep">с.21</span> Даррен: «Вспышки пугают тень сильнее всего». Налобные фонари держат её на расстоянии, и Джимми становится легче.</p>
+      <p data-from="22"><span class="ep">с.22</span> У Джимми гаснет фонарик, и тень вцепляется в него. Надин надевает на брата свой, и чернота срывается с плеч. <a href="#" class="sh-go" data-item="w-eyes22">Тень добралась</a></p>
+    </div>
+    <div class="sh-rule" data-from="20"><b>Облик убитых</b>
+      <p data-from="20"><span class="ep">с.2</span> Миранда на пороге дома Надин, лицо меняется на глазах. <a href="#" class="sh-go" data-item="w-door">Миранда в дверях</a></p>
+      <p data-from="20"><span class="ep">с.6</span> Миранда в проявочной: «Он тебя ищет». <a href="#" class="sh-go" data-item="w-miranda6">Миранда</a></p>
+      <p data-from="20"><span class="ep">с.9</span> Чёрные волосы из зеркала в подвале пахнут клубникой, как Миранда. <a href="#" class="sh-go" data-item="w-mirror">Зеркало в подвале</a></p>
+      <p data-from="20"><span class="ep">с.11</span> У «Объекта» дыра от пули на виске, как у Тома. <a href="#" class="sh-go" data-item="w-object">Объект</a></p>
+      <p data-from="20"><span class="ep">с.20</span> Надин понимает: тень принимает облик тех, кого убила. Тома с простреленным виском, Миранду со сломанной шеей.</p>
+      <p data-from="22"><span class="ep">с.22</span> В башне у тени четыре лица, имён пока нет. <a href="#" class="sh-go" data-item="w-faces">Тень с четырьмя лицами</a></p>
+    </div>
+  </div>
+
+    <h3 class="sh-h" data-from="1">Её проделки</h3>
+  <p class="sh-sub"><span data-until="23">Похоже, за всем этим стоит одна и та же тварь. Но точно пока неизвестно.</span><span data-from="23">Всё это одна и та же тень.</span> Нажми, чтобы открыть карточку.</p>
+  <div class="sh-tricks">
+    <button type="button" class="sh-trick sh-go" data-item="w-shadow" data-from="1"><img src="img/shadow.webp" alt="" loading="lazy"><span><i class="ep">с.1</i> Тень</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-door" data-from="2"><img src="img/miranda_door2.webp" alt="" loading="lazy"><span><i class="ep">с.2</i> Миранда в дверях</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-creature" data-from="3"><img src="img/creature.webp" alt="" loading="lazy"><span><i class="ep">с.3</i> Нечто (путь смелости)</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-creature2" data-from="3"><img src="img/creature_c.webp" alt="" loading="lazy"><span><i class="ep">с.3</i> Нечто (путь осторожности)</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-voice" data-from="4"><img src="img/whisper.webp" alt="" loading="lazy"><span><i class="ep">с.4</i> Зовущий голос</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-junk" data-from="5"><img src="img/junk_shadow.webp" alt="" loading="lazy"><span><i class="ep">с.5</i> Тень на свалке</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-miranda6" data-from="6"><img src="img/miranda_dark.webp" alt="" loading="lazy"><span><i class="ep">с.6</i> Миранда</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-mirror" data-from="9"><img src="img/mirror9.webp" alt="" loading="lazy"><span><i class="ep">с.9</i> Зеркало в подвале</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-object" data-from="11"><img src="img/object11.webp" alt="" loading="lazy"><span><i class="ep">с.11</i> Объект</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-guilt" data-from="13"><img src="img/guilt13.webp" alt="" loading="lazy"><span><i class="ep">с.13</i> «Это всё твоя вина»</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-fakepoppy" data-from="13"><img src="img/fakepoppy13.webp" alt="" loading="lazy"><span><i class="ep">с.13</i> «Поппи»</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-malcolm" data-from="16"><img src="img/malcolm16b.webp" alt="" loading="lazy"><span><i class="ep">с.16</i> «Малкольм» в башне</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-whisper" data-from="17"><img src="img/whisper17.webp" alt="" loading="lazy"><span><i class="ep">с.17</i> Голос в голове</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-deadnadin" data-from="17"><img src="img/deadnadin17.webp" alt="" loading="lazy"><span><i class="ep">с.17</i> Мёртвая Надин</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-double" data-from="18"><img src="img/double18.webp" alt="" loading="lazy"><span><i class="ep">с.18</i> Кто-то в кровати</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-veins" data-from="18"><img src="img/veins18.webp" alt="" loading="lazy"><span><i class="ep">с.18</i> Вены в комнате (42 осторожности)</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-ceiling" data-from="18"><img src="img/ceiling18.webp" alt="" loading="lazy"><span><i class="ep">с.18</i> Существо на потолке (42 осторожности)</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-jimmy" data-from="19"><img src="img/jimmy19.webp" alt="" loading="lazy"><span><i class="ep">с.19</i> «К-кто это?»</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-chest" data-from="20"><img src="img/chest20b_ea.webp" data-fam="chest20" alt="" loading="lazy"><span><i class="ep">с.20</i> Тварь на груди</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-fakejimmy" data-from="20"><img src="img/fakejimmy20.webp" data-fam="fakejimmy20" alt="" loading="lazy"><span><i class="ep">с.20</i> Ненастоящий Джимми</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-cartoon" data-from="22"><img src="img/cartoon22b.webp" alt="" loading="lazy"><span><i class="ep">с.22</i> Мультик для Джимми</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-grey" data-from="22"><img src="img/grey22c.webp" alt="" loading="lazy"><span><i class="ep">с.22</i> Серые за спиной</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-eyes22" data-from="22"><img src="img/eyes22.webp" alt="" loading="lazy"><span><i class="ep">с.22</i> Тень добралась</span></button>
+    <button type="button" class="sh-trick sh-go" data-item="w-faces" data-from="22"><img src="img/faces22b.webp" alt="" loading="lazy"><span><i class="ep">с.22</i> Тень с четырьмя лицами</span></button>
+  </div>
+
+  <h3 class="sh-h" data-from="1">Носители</h3>
+  <div class="sh-chain" data-from="1" data-until="23">
+    <div class="sh-node" data-from="1"><figure class="pol"><img src="img/miranda_p.webp" alt="Миранда" loading="lazy"><span class="stamp sh-guess" data-until="22">догадка</span><span class="stamp sh-sure" data-from="22">точно</span><figcaption>Миранда</figcaption></figure>
+      <small data-from="1"><span class="ep">с.1</span> В туалете и на фото за ней тень.</small>
+      <small data-from="18"><span class="ep">с.18</span> Надин: та же тень была на последней кассете Миранды.</small>
+      <small data-from="20"><span class="ep">с.20</span> Тень мешала ей говорить на видео.</small>
+      <small data-from="22"><span class="ep">с.22</span> В прошлом тень влетела в неё от Джимми.</small></div>
+    <div class="sh-arrow" data-from="20">→</div>
+    <div class="sh-node" data-from="11"><figure class="pol"><img src="img/tom.webp" alt="Том" loading="lazy"><span class="stamp sh-guess">догадка</span><figcaption>Том</figcaption></figure>
+      <small data-from="5"><span class="ep">с.5</span> Тень на свалке там, где потом нашли Тома.</small>
+      <small data-from="11"><span class="ep">с.11</span> У «Объекта» дыра от пули на виске.</small>
+      <small data-from="20"><span class="ep">с.20</span> Даррен: Том умер сразу после Миранды, значит, тень перешла к нему.</small></div>
+  </div>
+  <div class="sh-chain" data-from="16" data-until="23">
+    <div class="sh-node" data-from="16"><figure class="pol"><img src="img/malcolm16b.webp" alt="«Малкольм» в башне" loading="lazy"><span class="stamp sh-guess" data-until="22">догадка</span><span class="stamp sh-sure" data-from="22">точно</span><figcaption>Малкольм</figcaption></figure>
+      <small data-from="16"><span class="ep">с.16</span> В башне тень притворялась Малкольмом.</small>
+      <small data-from="20"><span class="ep">с.20</span> Надин думает, что подцепила её там.</small>
+      <small data-from="22"><span class="ep">с.22</span> Его тело лежит в башне.</small></div>
+    <div class="sh-arrow" data-from="17">→</div>
+    <div class="sh-node" data-from="17"><figure class="pol"><img class="sh-nadin" src="img/nadin.webp" alt="Надин" loading="lazy"><span class="stamp sh-sure">точно</span><figcaption>Надин</figcaption></figure>
+      <small data-from="17"><span class="ep">с.17</span> Голос за спиной толкает к смерти.</small>
+      <small data-from="18"><span class="ep">с.18</span> Кто-то лежит рядом в кровати.</small>
+      <small data-from="20"><span class="ep">с.20</span> Ушла после вспышки.</small></div>
+    <div class="sh-arrow" data-from="20">→</div>
+    <div class="sh-node sh-unknown" data-from="20" data-until="21"><figure class="pol"><span class="blank"><i class="sh-eyes"></i></span><figcaption>Куда ушла?</figcaption></figure>
+      <small data-from="20"><span class="ep">с.20</span> Утром Джимми мёрзнет, хотя ночевал у неё в комнате.</small></div>
+    <div class="sh-node" data-from="21"><figure class="pol"><img src="img/jimmy21.webp" data-fam="jimmy21" alt="Джимми" loading="lazy"><span class="stamp sh-sure">точно</span><figcaption>Джимми</figcaption></figure>
+      <small data-from="21"><span class="ep">с.21</span> В кармане пижамы морозник. Ему холодно, а лоб горячий.</small>
+      <small data-from="21"><span class="ep">с.21</span> Рядом с ним поле, как у башни.</small>
+      <small data-from="22"><span class="ep">с.22</span> Видит «мультик» и серых за спиной. Тень от него ушла в Миранду.</small></div>
+    <div class="sh-arrow" data-from="22">→</div>
+    <div class="sh-node" data-from="22"><figure class="pol"><img src="img/miranda_p.webp" alt="Миранда" loading="lazy"><span class="stamp sh-sure">точно</span><figcaption>Миранда</figcaption></figure>
+      <small data-from="22"><span class="ep">с.22</span> Круг замкнулся? Тень вернулась в прошлое и вошла в Миранду.</small></div>
+  </div>
+
+  <div class="sh-loop" data-from="23">
+  <p class="sh-sub">Даррен разложил всё по порядку. Тень одна, и путь у неё замкнутый: из башни в башню.</p>
+  <ol class="sh-ring">
+    <li><img src="img/malcolm16b.webp" alt="" loading="lazy"><div><b>Малкольм</b><p><span class="ep">пролог</span> «Уорлок» выпускает двоих в зону. Малкольм забегает в башню, и тень поселяется в нём. Он первый носитель, его тело так и лежит в башне.</p></div></li>
+    <li><img src="img/nadin.webp" class="sh-nadin" alt="" loading="lazy"><div><b>Надин</b><p><span class="ep">с.16</span> Надин выходит из прошлого в башню и подцепляет тень после Малкольма. Тень ходит за ней и толкает к смерти, но не забирает.</p></div></li>
+    <li><img src="img/jimmy21.webp" data-fam="jimmy21" alt="" loading="lazy"><div><b>Джимми</b><p><span class="ep">с.20</span> Вспышка отпугивает тень от Надин, и она перебирается на брата.</p></div></li>
+    <li><img src="img/miranda_p.webp" alt="" loading="lazy"><div><b>Миранда</b><p><span class="ep">с.22</span> Надин с Джимми уходят в прошлое, и тень перескакивает на живую Миранду. Миранда не выдерживает её шёпота.</p></div></li>
+    <li><img src="img/tom.webp" alt="" loading="lazy"><div><b>Том</b><p>С Миранды тень переходит на её парня. Тома застрелили на вечеринке у свалки.</p></div></li>
+    <li><img src="img/skater.webp" alt="" loading="lazy"><div><b>Саймон</b><p>После смерти Тома тень прилипает к последнему носителю. Люди «Уорлока» подстрелили Саймона и заперли в башне, там он и умер.</p></div></li>
+    <li class="sh-ring-end"><span class="sh-ring-ico" aria-hidden="true">↺</span><div><b>Башня</b><p>Тень снова заперта и ждёт, пока «Уорлок» не выпустит в зону следующих. Дальше пролог, Малкольм, и всё по кругу.</p></div></li>
+  </ol>
+  <div class="sh-card sh-overlap"><div><h4>Хронологический перехлёст</h4><p>Надин была в башне дважды. В с.16 она застала начало жизни тени, а в с.22 её конец. Поэтому какое-то время в башне были две версии одной тени: молодая в облике Малкольма и старая в облике Саймона.</p><p>Перехлёст создала сама Надин, когда путешествовала во времени. Так объясняется и тень в первых сериях: пока старая сидела в башне, молодая ходила по городу за Мирандой, Томом и Саймоном.</p></div></div>
+  </div>
+  <h3 class="sh-h" data-from="11">Кто о ней знает</h3>
+  <div class="sh-know">
+    <div class="sh-card" data-from="11"><img src="img/junk_shadow.webp" alt="" loading="lazy"><div><h4>«Уорлок»</h4>
+      <p data-from="11"><span class="ep">с.11</span> Его аппаратура спрятана на свалке.</p>
+      <p data-from="16"><span class="ep">с.16</span> Его люди окружили ребят после башни.</p>
+      <p data-from="20"><span class="ep">с.20</span> Приборы изучали тень у могилы Тома. Значит, в «Уорлоке» знали, что она была в нём.</p>
+      <p data-from="23"><span class="ep">с.23</span> Его люди подстрелили Саймона и заперли в башне вместе с тенью. Дальше только наблюдали: «Избран режим бесконтактного мониторинга».</p></div></div>
+    <div class="sh-card" data-from="11"><img src="img/howard.webp" alt="" loading="lazy"><div><h4>Говард</h4>
+      <p data-from="11"><span class="ep">с.11</span> Дома у него анкеты на «объекты» и снимки со свалки, на втором чёрная клякса. <a href="#" class="sh-go" data-item="e-forms">Анкеты «объектов»</a></p>
+      <p data-from="20"><span class="ep">с.20</span> Надин показала эти кадры ребятам у костра.</p> <a href="#" class="sh-go" data-person="howard">Досье</a></div></div>
+  </div>
+
+
+</section>
+
+<!-- EVIDENCE -->
+<section class="sec-tapes" data-tab="evidence" id="tab-evidence">
+  <h2>Улики</h2>
+  <p class="lead im-hint"><span class="h-hov">Наведи на фото, чтобы прочитать, что известно. Нажми, чтобы открыть крупнее.</span><span class="h-tap">Нажми на фото, чтобы узнать больше.</span></p>
+  <h3 class="sub plain" data-from="8">Из настоящего</h3>
+  <div class="pins">
+    <div class="item" data-ep="1"><figure class="pol"><img src="img/tower_prologue.webp" alt="Башня в Мёртвой зоне" loading="lazy"><span class="stamp threat">аномалия</span><figcaption>Башня в Мёртвой зоне</figcaption></figure><p class="note"><span class="ep">с.1</span> Вокруг башни аномалия магнитного поля, приборы сбоят. Один из отправленных в зону вошёл внутрь.</p></div>
+    <div class="item" data-ep="1"><figure class="pol"><img src="img/ev_malcolm.webp" alt="Папка с делом Малкольма Брауна и снимок" loading="lazy"><span class="stamp threat">пропал</span><figcaption>Дело Малкольма</figcaption></figure><p class="note"><span class="ep">с.1</span> Папка у шерифа. Пропавший, предположительно из Сов. Не первый случай.</p></div>
+    <div class="item" id="e-poppyvideo" data-ep="2"><figure class="pol"><img src="img/poppy_video.webp" alt="Видео с напуганной Мирандой" loading="lazy"><span class="stamp threat">видео</span><figcaption>Видео от Поппи</figcaption></figure><p class="note"><span class="ep">с.2</span> Миранда на записи напугана. Чего она боялась?</p></div>
+    <div class="item" data-ep="3"><figure class="pol"><img src="img/camera.webp" alt="Камера VZ1" loading="lazy"><figcaption>Камера VZ1</figcaption></figure><p class="note"><span class="ep">с.3</span> Лежала на полу в комнате Миранды. Мох, паутина, еловые иглы. Похоже, её принесли из Старого Сентфора.</p></div>
+    <div class="item" data-ep="3" data-tape="shmb"><figure class="pol"><img src="img/cassette.webp" alt="Кассета Ш.М.Б." loading="lazy"><span class="stamp dead" data-from="4">стёрта</span><figcaption>«Сентябрь, 2017. Ш.М.Б.»</figcaption></figure><p class="note"><span class="ep"><span data-until="4">с.3</span><span data-from="4">с.3–4</span></span> <span data-until="4">Нашлась в камере Миранды. На записи башня, люди с автоматами и женский крик.</span><span data-from="4">Запись стёрлась, фото башни осталось у Надин в телефоне.</span></p><p class="note" data-from="19"><span class="ep">с.19</span> Даррен забрал её у Надин и спрятал в старом лагере.</p></div>
+    <div class="item" data-ep="3"><figure class="pol"><img src="img/tower.webp" alt="Башня" loading="lazy"><span class="stamp dead" data-from="4">украдено</span><figcaption>Невозможная башня</figcaption></figure><p class="note"><span class="ep"><span data-until="4">с.3</span><span data-from="4">с.3–4</span></span> <span data-until="4">Та самая башня из пролога, только на записи 2017 года. Выходит, она стоит там уже давно.</span><span data-from="4">Папа: такое не построить.</span></p></div>
+    <div class="item" data-ep="4" data-tape="miranda"><figure class="pol"><img src="img/miranda_tape.webp" alt="Миранда на записи просит о помощи" loading="lazy"><span class="stamp dead">украдено</span><figcaption>Кассеты с Мирандой</figcaption></figure><p class="note"><span class="ep">с.4</span> Пропали из редакции вместе с распечаткой башни.</p></div>
+    <div class="item" data-ep="4"><figure class="pol wide"><img src="img/car.webp" alt="Серый седан" loading="lazy"><span class="stamp threat">следят</span><figcaption>Серый седан</figcaption></figure><p class="note"><span class="ep">с.4</span> Сначала стоял у дома Миранды, потом у дома Надин.</p></div>
+    <div class="item" id="e-hellebore" data-ep="4"><figure class="pol"><img src="img/hellebore.webp" alt="Чёрный морозник в шкафчике" loading="lazy"><figcaption>Чёрный морозник</figcaption></figure><p class="note"><span class="ep">с.4</span> В закрытом шкафчике Миранды. Как он туда попал?</p></div>
+    <div class="item" data-ep="5"><figure class="pol"><img src="img/ev_bone.webp" alt="Большая кость в куче листвы у школы" loading="lazy"><span class="stamp dead">выброшена</span><figcaption>Кость у школы</figcaption></figure><p class="note"><span class="ep">с.5</span> Нашлась в листве у самой школы. Для кошки или собаки слишком большая… А её просто выбросили в мусор.</p></div>
+    <div class="item" id="e-lastday" data-ep="5"><figure class="pol wide"><img src="img/miranda_shadow.webp" alt="Миранда и тень" loading="lazy" style="object-position:40% 50%"><span class="stamp threat">тень</span><figcaption>Последний день Миранды</figcaption></figure><p class="note"><span class="ep">с.5</span> Рядом с Мирандой никого не было, а плёнка запомнила тень. Что ещё видит камера?</p></div>
+    <div class="item" data-ep="5"><figure class="pol wide"><img src="img/sheriff_howard.webp" alt="Шериф и Говард" loading="lazy"><figcaption>Шериф + Говард</figcaption></figure><p class="note"><span class="ep">с.5</span> Шериф и Говард тайком встречаются у свалки и о чём-то спорят. Что их связывает?</p></div>
+    <div class="item" data-ep="5"><figure class="pol"><div class="blank" aria-hidden="true" data-until="19">📖</div><img src="img/book19.webp" alt="Обгоревшая книга «Тени Сентфора»" loading="lazy" data-from="19"><span class="stamp dead">пожар</span><figcaption>Книга «Тени Сентфора»</figcaption></figure><p class="note"><span class="ep">с.5</span> Городские легенды. Пережила пожар, части страниц нет. Подарок библиотекарши маленькой Надин. <a class="jump" href="#mx-book" data-jump="mx-book">Связь с ТС1 →</a></p><p class="note" data-from="19"><span class="ep">с.19</span> В ней нашлась расшифровка знаков с таблички в башне. Надин помнила их с детства.</p></div>
+    <div class="item" data-ep="6"><figure class="pol"><div class="blank" aria-hidden="true" data-until="10">?</div><img src="img/pit_tapes.webp" alt="Пакет с записями в яме" loading="lazy" data-from="10"><span class="stamp threat" data-until="10">тайна</span><span class="stamp threat" data-from="10">закопано</span><figcaption>Находка Поппи</figcaption></figure><p class="note"><span class="ep">с.6</span> Поппи обыскивает брошенные машины на свалке. Что-то нашла и хочет продать.</p><p class="note" data-from="10"><span class="ep">с.10</span> Ничего не нашла: сама снимала из брошенных машин. На записи выстрел, потом люди в пиджаках закапывают тело и только после этого ставят оборудование. Запись закопала в лесу, копия у неё в телефоне.</p></div>
+    <div class="item" data-ep="8"><figure class="pol"><button type="button" class="emf-wrap" id="emf" aria-label="Включить измеритель поля"><span class="emf"><span class="emf-face"><svg viewBox="0 0 120 72" aria-hidden="true"><path class="z1" d="M19.3 40.5A47 47 0 0 1 60.0 17.0"/><path class="z2" d="M60.0 17.0A47 47 0 0 1 87.6 26.0"/><path class="z3" d="M87.6 26.0A47 47 0 0 1 100.7 40.5"/><g class="tk"><line x1="21.9" y1="42.0" x2="28.8" y2="46.0"/><line x1="27.3" y1="34.6" x2="31.0" y2="37.9"/><line x1="34.1" y1="28.4" x2="37.1" y2="32.4"/><line x1="42.1" y1="23.8" x2="44.1" y2="28.4"/><line x1="50.9" y1="21.0" x2="51.9" y2="25.9"/><line x1="60.0" y1="20.0" x2="60.0" y2="28.0"/><line x1="69.1" y1="21.0" x2="68.1" y2="25.9"/><line x1="77.9" y1="23.8" x2="75.9" y2="28.4"/><line x1="85.9" y1="28.4" x2="82.9" y2="32.4"/><line x1="92.7" y1="34.6" x2="89.0" y2="37.9"/><line x1="98.1" y1="42.0" x2="91.2" y2="46.0"/></g><text x="16" y="66">0</text><text x="98" y="66">MAX</text><text x="60" y="40" class="u">mG</text><g id="emf-needle" transform="rotate(-58 60 64)"><line x1="60" y1="64" x2="60" y2="20"/></g><circle cx="60" cy="64" r="4.5"/></svg></span><span class="emf-leds"><i class="g"></i><i class="g"></i><i class="y"></i><i class="o"></i><i class="r"></i></span><span class="emf-lbl">EMF&nbsp;METER</span><span class="emf-grill"></span><span class="emf-btn"></span></span></button><span class="stamp threat">зашкалил</span><figcaption>Измеритель поля</figcaption></figure><p class="note"><span class="ep">с.8</span> У могилы Тома загорелись все индикаторы.</p></div>
+    <div class="item" data-ep="8"><figure class="pol"><img src="img/ev_devices.webp" alt="Железки с красными огоньками у костра на свалке" loading="lazy"><span class="stamp threat">спрятано</span><figcaption>Аппаратура на свалке</figcaption></figure><p class="note"><span class="ep">с.8</span> Неприметные железки с красным огоньком. Не одна.</p></div>
+    <div class="item" data-ep="9" data-tape="window" data-tape-from="10"><figure class="pol"><img src="img/tape9.webp" alt="Кассета на подоконнике" loading="lazy"><span class="stamp threat">подкинули</span><figcaption>Кассета на подоконнике</figcaption></figure><p class="note"><span class="ep">с.9</span> Подкинули на подоконник. «Здесь всё, о чём ты должна знать».</p><p class="note" data-from="10"><span class="ep">с.10</span> «В опасности… запомни… Дату над дверью… вырезать. И тогда… в нужное время… Не зли… Кукла… Изменения зашли слишком далеко… их не спасти». Джимми: похоже на голос Надин.</p></div>
+    <div class="item" id="e-forms" data-ep="11"><figure class="pol"><img src="img/ev_forms.webp" alt="Папка с бумагами из дома Говарда" loading="lazy"><span class="stamp threat" data-until="12">в доме Говарда</span><span class="stamp dead" data-from="12">отобрал</span><figcaption>Анкеты «объектов»</figcaption></figure><p class="note"><span class="ep">с.11</span> Анкеты на людей и существ. «Родственное магнитное поле с Объектом 1. Общая геомагнитная аномалия». «Для изучения опасен». Режим бесконтактного мониторинга.</p><p class="note"><span class="ep">с.11</span> От руки: не отходит далеко от жертвы, преследует, выжидает. «Кого-то ищет или хочет насытиться? Жертвы случайны?»</p></div>
+    <div class="item" data-ep="11"><figure class="pol wide"><img src="img/junk_photo11.webp" alt="Снимок свалки с тёмной кляксой" loading="lazy" style="object-position:28% 50%"><span class="stamp threat">в доме Говарда</span><figcaption>Снимок со свалки</figcaption></figure><p class="note"><span class="ep">с.11</span> Сделан приборами «Уорлока». На первом снимке пусто, на втором чёрная клякса.</p></div>
+    <div class="item" data-ep="12"><figure class="pol wide"><img src="img/fence12.webp" alt="Фото: парень на пиках забора" loading="lazy"><span class="stamp threat">закрыто</span><figcaption>Дело Стива</figcaption></figure><p class="note"><span class="ep">с.12</span> Стив Бейли, 22 года. Напоролся на пики забора на границе Старого и Нового Сентфора, в лесной зоне. Списали на несчастный случай и закрыли дело.</p><p class="note" data-from="18"><span class="ep">с.18</span> Сестра подтвердила: он погиб на границе, а не в самом Старом Сентфоре.</p></div>
+    <div class="item" data-ep="12"><figure class="pol"><img src="img/flyer12.webp" alt="Листовка «Вы меня видели?»" loading="lazy"><span class="stamp threat">пропала</span><figcaption>«Вы меня видели?»</figcaption></figure><p class="note"><span class="ep">с.12</span> Листовка на полу архива.</p></div>
+    <div class="item" data-ep="13"><figure class="pol wide"><img src="img/files13.webp" alt="Старые дела из архива" loading="lazy"><span class="stamp threat">1986</span><figcaption>Дела 1986 года</figcaption></figure><p class="note"><span class="ep">с.13</span> Кэнди Нельсон пропала и сама вернулась с болота. Говорила, что её держали силой, описывала странное существо. Всё списали на морозник, подозревали отчима.</p><p class="note"><span class="ep">с.13</span> Пропал Бобби Тёрнер. В ту же неделю пропали Меган Уайт и Фредди Браун, позже их нашли живыми вместе с другими детьми. Дети говорили, что их кто-то похитил.</p><p class="note"><span class="ep">с.13</span> В лесу нашли мёртвым школьника Сэма Фостера, в крови CP-25. Элис: «И это только официальные данные».</p></div>
+    <div class="item" data-ep="13"><figure class="pol"><img src="img/bag13.webp" alt="Сумка Миранды с морозником" loading="lazy"><span class="stamp threat">морозник</span><figcaption>Сумка Миранды</figcaption></figure><p class="note"><span class="ep">с.13</span> Лежит в раздевалке, никто не убрал и не искал. Внутри гнилой морозник.</p></div>
+    <div class="item" data-ep="14"><figure class="pol"><img src="img/photo14.webp" alt="Старое фото пары, лицо мужчины исцарапано" loading="lazy"><span class="stamp threat">лицо стёрто</span><figcaption>Фото в доме</figcaption></figure><p class="note"><span class="ep">с.14</span> Лицо мужчины исцарапано. Рядом открытка «С днём рождения, Сара…»</p><p class="note" data-from="16"><span class="ep">с.16</span> В 1986 году в этом доме живёт Сара О'Нил.</p></div>
+    <div class="item" data-ep="14"><figure class="pol"><span class="hs"><img src="img/key14.webp" alt="Ржавый ключ с брелоком" loading="lazy"><button class="rune" id="rune" type="button" aria-label="Руна на брелоке"></button></span><span class="stamp threat">из прошлого</span><figcaption>Ключ</figcaption></figure><p class="note"><span class="ep">с.14</span> На брелоке руна, которая по городским легендам отгоняет зло.</p></div>
+    <div class="item" data-ep="16"><figure class="pol wide"><img src="img/plaque16.webp" alt="Деревянная табличка со знаками" loading="lazy"><span class="stamp q">знаки</span><figcaption>Табличка в башне</figcaption></figure><p class="note"><span class="ep">с.16</span> Над выходом. Круг в круге, изогнутая линия, спирали и счётные палочки.</p><p class="note" data-from="19"><span class="ep">с.19</span> Расшифровали по книге: две спирали — два тысячелетия, 23 зарубки — годы, Солнце с Луной — равноденствие. Это 23 сентября 2023, ночь вылазки, когда Надин вышла из башни.</p><p class="note sp-note" data-until="19"><button type="button" class="pm-reveal sp-btn">Расшифровка: спойлер из серии 19. Показать</button><span class="sp-txt" hidden><span class="ep">с.19</span> Расшифровали по книге: две спирали — два тысячелетия, 23 зарубки — годы, Солнце с Луной — равноденствие. Это 23 сентября 2023, ночь вылазки, когда Надин вышла из башни.</span></p><p class="note" data-from="22"><span class="ep">с.22</span> Над дверью, что в прошлый раз вела в прошлое, табличка теперь пустая. Над другой нацарапано «23» и много зарубок.</p></div>
+    <div class="item" id="e-photo20" data-ep="20"><figure class="pol"><img src="img/photo20.webp" alt="Телефон: на снимке в темноте два светящихся глаза" loading="lazy"><span class="stamp threat">тень?</span><figcaption>Снимок со вспышкой</figcaption></figure><p class="note"><span class="ep">с.20</span> Надин сняла ночную тварь на телефон. <em class="pen">«Мне казалось, оно выглядело иначе…»</em></p></div>
+<div class="item" id="e-bodies" data-ep="22"><figure class="pol"><img src="img/bodies22.webp" alt="Тела в зарослях морозника" loading="lazy"><span class="stamp dead">тела</span><figcaption>Тела в зарослях</figcaption></figure><p class="note"><span class="ep">с.22</span> В зарослях морозника в башне лежат Малкольм Браун, иссохший, как мумия, и «парень с вечеринки, которым притворялась тень».</p></div>
+  </div>
+  <div class="past-block" data-from="8"><h3 class="sub plain">Из прошлого</h3>
+  <div class="pins">
+    <div class="item" data-ep="8"><figure class="pol"><span class="hs coin-hs"><img src="img/coin_base.webp" alt="Золотая монета Black Dragons" loading="lazy"><img loading="lazy" src="img/coin_disc.webp" alt="" class="coin-disc" id="coin-img"><button class="coin-btn" id="coin" type="button" aria-label="Подбросить монету"></button><span class="coin-res" id="coin-res" hidden></span></span><figcaption>Монета</figcaption></figure><p class="note"><span class="ep">с.8</span> Декс нашёл в заброшенном доме. Принадлежала «Чёрным Драконам», старой сентфорской банде.</p></div>
+    <div class="item" data-ep="9"><figure class="pol"><img src="img/scrunchie9.webp" alt="Розовая атласная резинка" loading="lazy"><figcaption>Резинка</figcaption></figure><p class="note"><span class="ep">с.9</span> Элис отдала её Надин в примерочной комиссионки.</p></div>
+    <div class="item" data-ep="16"><figure class="pol"><img src="img/tape16.webp" alt="Кассета с детским рисунком" loading="lazy"><span class="stamp threat">из 1986</span><figcaption>Кассета с рисунком</figcaption></figure><p class="note"><span class="ep">с.16</span> Миссис Хилл отдала Надин в прошлом.</p></div>
+    <div class="item" data-ep="16"><figure class="pol"><img src="img/candy16.webp" alt="Мятная конфета в цветном фантике" loading="lazy"><span class="stamp threat">из 1986</span><figcaption>Мятная конфета</figcaption></figure><p class="note"><span class="ep">с.16</span> Тоже от миссис Хилл.</p></div>
+  </div>
+  </div>
+</section>
+
+
+<!-- THEORIES -->
+<section data-tab="theories" id="tab-theories">
+  <h2>Теории</h2>
+  <div class="th-lock-note" role="note">🔒 Теории доступны после прочтения всех 19 серий: в них спойлеры до самого конца.</div>
+  <div class="cards">
+    <article id="t-sidni-zaperta-vyhoda-net" class="card big" data-ep="19"><div class="tag">автор сайта</div><h3>Сидни заперта, и выхода правда нет</h3>
+      <p>Я пересмотрела все посты Сидни, фото и видео. Если сложить их по порядку, получается история: Сидни раскопала правду об «Уорлоке», её заманили и заперли, а Тень постепенно забирает её себе. Её «ПОМОГИТЕ. ВЫХОДА НЕТ.» надо понимать буквально.</p>
+      <p><b>Она узнала правду об «Уорлоке».</b> Официально корпорация изучает морозник ради медицины: о её достижениях в медицине Говард и хотел говорить в интервью в 1.01. А Сидни ровно в 18:06 пишет, что всё, что нам рассказывали о прогрессе, — ложь, прикрывающая настоящий ад, и что весь город — это не город. До этого она нашла в заброшке анкеты пропавших подростков с пометками «непригоден» и «переехал». Похоже, город — полигон корпорации, а подростки — подопытные.</p>
+      <div class="tg-proof"><blockquote class="tg-card"><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>12 марта, 18:06</span></div><p>Я НАШЛА ЭТО.<br>Боже, если я выберусь и опубликую всё… Это будет самая большая сенсация в истории журналистики. Весь город — это не город, это...</p><p>Я не могу здесь писать детали. Скажу только одно: всё, что нам рассказывали о прогрессе, — ложь, прикрывающая настоящий ад. Это будет мой триумф.</p><a href="https://t.me/sidneyWwW/15" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_files.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>11 марта, 00:48</span></div><p>Нашла подсобку в заброшенном здании. Весь пол завален личными делами. Это не документы, а школьные анкеты.<br>Посмотрите на эти даты. Десятки подростков. Официально они числятся «переселенцами» или «пропавшими без вести». Но почему их фотографии здесь, в архивах корпорации, с пометками «непригоден», переехал и «**2»?</p><p>Мои руки трясутся, пока я это пишу.</p><a href="https://t.me/sidneyWwW" data-en="6" target="_blank" rel="noopener">Открыть канал в Телеграме ↗</a></blockquote></div>
+      <p><b>Она дошла до Мёртвой зоны.</b> На снимках вышка в тумане, ржавая машина, противогаз с черепом и кости в брошенном доме. Она была рядом с Башней и знает о ней больше, чем пишет.</p>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p16.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>12 марта, 23:06</span></div><p>Меня привлекло сообщение от жителя данной территории.</p><p>Территория смерти — самая верная трактовка этой аббревиатуры. Тут всё пропитано смертью. Кругом кости, оставленные вещи…</p><p>Кажется, что это место медленно поглощает всё живое. Даже тишина здесь какая-то неправильная... тяжёлая, давящая... понимаете?</p><a href="https://t.me/sidneyWwW/16" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <p><b>Её заманили.</b> Пост из Мёртвой зоны начинается с «сообщения от жителя». До него все её находки лежат на бетонном полу под фонариком: она ещё ходит по заброшке. После — всё лежит на одном деревянном столе с лампой и магнитофоном. Похоже, сообщение было приманкой.</p>
+      <div class="tproof"><figure><img src="img/sid_drawing.webp" alt="Рисунок на бетонном полу" loading="lazy"><figcaption>ТГ Сидни, 11 марта</figcaption></figure><figure><img src="img/sid_p20.webp" alt="Её имя на столе с магнитофоном" loading="lazy"><figcaption>ТГ Сидни, 14 марта</figcaption></figure></div>
+      <p><b>Её заперли.</b> Окно с деревьями и дверь на фото просто нарисованы на стене, под окном даже видны потёки краски. В углу гора пустых банок: сидит она там давно. 18 марта она пишет, что может уйти в любой момент, а 19 ноября присылает смазанное фото той же комнаты и пост азбукой Морзе: «ПОМОГИТЕ. ВЫХОДА НЕТ.»</p>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p22.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>18 марта, 19:06</span></div><p>Здесь так спокойно и безопасно. У меня есть всё, что нужно: удобная кровать, любимая камера и окно с прекрасным видом. Я могу уйти в любой момент, если захочу. Но пока... пока мне здесь слишком хорошо ❤️</p><a href="https://t.me/sidneyWwW/22" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p25.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>19 ноября, 21:30</span></div><p class="tg-mono ru">.--. --- -- --- --. .. - . ......<br>.-- -.-- .... --- -.. .-<br>-. . - ......</p><p class="tg-mono en">.... . .-.. .--. -.-.--<br>- .... . .-. . .----. ...<br>-. --- / .-- .- -.--<br>--- ..- - .-.-.-</p><a href="https://t.me/sidneyWwW" data-en="27" target="_blank" rel="noopener">Открыть канал в Телеграме ↗</a></blockquote></div>
+      <p><b>Тень забирает её.</b> Сначала Сидни видит человека без лица, слышит гул и боится. Потом гул прекращается, и она сама рисует то же, что дети из заброшки, на такой же обгоревшей бумаге. Отражение в витрине поворачивает голову само, не вместе с ней, — как Тень в Малкольме, а потом в Надин. И действует Тень так же, как на Надин: Сидни «тянет туда постоянно», как Надин в 1.18 дважды «на автомате» тянет к Башне. Ей то «слишком хорошо», то «больше не могу», а в голове «слишком много „других“ голосов».</p>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p17.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>13 марта, 19:06</span></div><p>Гул прекратился. Теперь я понимаю. Чёрная тень — это не враг.</p><p>Я тоже рисую теперь. Так гораздо понятнее, чем слова. Слова не правдивы. Глаза... повсюду должны быть глаза, чтобы видеть, как они приходят. 👁️ Спите спокойно, горожане. За вами уже присмотрели 🌺</p><a href="https://t.me/sidneyWwW/17" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p19.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>14 марта, 16:57</span></div><p>Я всё ещё в сознании, но этот запах и тот город… меня тянет туда постоянно...</p><a href="https://t.me/sidneyWwW/19" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <p><b>Даже цифры в её голове — Сентфор.</b> Она их не понимает, но вырезает на столе с таким остервенением, что на дереве осталась кровь. Если заменить числа буквами по номеру в русском алфавите (считая Ё), получится СЕНТФОР.</p>
+      <div class="sid-dec ru"><span data-l="С"><i>19</i></span><span data-l="Е"><i>06</i></span><span data-l="Н"><i>15</i></span><span data-l="Т"><i>20</i></span><span data-l="Ф"><i>22</i></span><span data-l="О"><i>16</i></span><span data-l="Р"><i>18</i></span></div>
+      <div class="sid-dec en"><span data-l="S"><i>19</i></span><span data-l="A"><i>01</i></span><span data-l="I"><i>09</i></span><span data-l="N"><i>14</i></span><span data-l="T"><i>20</i></span><span data-l="F"><i>06</i></span><span data-l="O"><i>14</i></span><span data-l="U"><i>20</i></span><span data-l="R"><i>17</i></span></div>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p24.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>20 марта, 18:00</span></div><p>Всё смешалось... Дни, ночи, запах… Не уверена, что помню, где я. Это комната в доме? Или всё это время я была в лесу?<br>Мысли... они не мои. Слишком громкие. Другие. Слишком много «других» голосов.<br>В голове цифры. Я не понимаю, что они значат. Как они могут помочь?</p><p>Чувствую, что-то грядёт. Нечто очень... ужасное. Я... я не могу больше сидеть здесь и ждать. Больше не могу.</p><a href="https://t.me/sidneyWwW/24" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <p><b>Настоящая Сидни пробивается.</b> Пост азбукой Морзе — первый раз за долгое время, когда она пишет сама. Прямо, видимо, не может. Вечером 19 ноября, с 22:10 до 22:20 по Москве, она пишет в комментариях фанатских каналов: «Вы меня видите?», а потом по кусочку одно слово — «пом…», «..ог..», «…ите». В 22:49 в чате нашего канала отвечает на пост азбукой Морзе стикером 🆘, а в 22:54 в другом чате ставит 😶 — лицо без рта. На «Хм… раньше ей там нравилось» отвечает 🤕: голова, голоса, а 1.17 так и называется — «Голоса в моей голове». Позже в своём канале: «Видите???»</p>
+      <div class="tproof"><figure class="w2"><img class="full" src="img/sid_pomogite3.webp" width="800" height="1860" style="aspect-ratio:800/1860" decoding="async" alt="Сидни в комментариях: Вы меня видите? пом… …ите, трясущийся смайлик, смайлик с забинтованной головой, ..ог.." loading="lazy"><figcaption>Комментарии Сидни, 19 ноября</figcaption></figure><figure class="w2"><img class="full" src="img/sid_sos.webp" width="600" height="509" style="aspect-ratio:600/509" decoding="async" alt="Сидни отвечает на пост азбукой Морзе стикером SOS, потом смайлик без рта" loading="lazy"><figcaption>Комментарии Сидни, 19 ноября</figcaption></figure></div>
+      <p><b>На следующий день — «всё в порядке».</b> 20 ноября Сидни пишет: «Простите за вчерашнее. Наверное, переутомилась, вот и мерещится всякое». Но на фото её тетрадь, исписанная до дыр: «Я здесь», «Не сплю», «Нормально», «Я умерла?» и десятки «Не могу», зачёркнутых и написанных заново. В посте она «просто не высыпается», а в тетради — «не сплю». Пост будто пишет за неё Тень, а в тетради прорывается сама Сидни.</p>
+      <div class="tg-proof"><blockquote class="tg-card"><img class="tg-ph" loading="lazy" src="img/sid_p26.webp" alt=""><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>20 ноября, 19:19</span></div><p>Простите за вчерашнее.<br>Наверное, переутомилась, вот и мерещится всякое.<br>Я в порядке, правда. Просто… не высыпаюсь.</p><a href="https://t.me/sidneyWwW" data-en="28" target="_blank" rel="noopener">Открыть канал в Телеграме ↗</a></blockquote></div>
+      <p><b>Вывод.</b> Сидни раскопала, что «Уорлок» ставит опыты на городе, и её убрали: заманили и заперли в комнате с нарисованным окном. Теперь в ней Тень — та же, что в Малкольме и Надин. Сидни говорит её словами, а сама прорывается только шифром и смайликами. Её никто не видит, как Надин не видит Неизвестного в 1.04: может, она застряла там же, вне времени. Она и сама уже не уверена, жива ли.</p>
+    </article>
+    <article id="t-nadin-iz-buduschego-vedet-sebya-sama" class="card main big" data-ep="19"><h3>Надин из будущего ведёт себя сама</h3>
+      <p>Самая красивая версия ТС2: Надин не одна, потому что рядом всё время она сама, только из будущего. И подсказки себе оставляет тоже она.</p>
+      <p><b>Фото со спины.</b> В 1.04 Надин одна в пустом коридоре, и ей приходит её же фото со спины, снятое секунду назад. Тот, кто снимал, стоит в паре шагов, но Надин никого не видит. Дальше игра впервые даёт сыграть за Неизвестного. Если сделать ещё один снимок, в кадр попадает его рука, и цвет кожи совпадает с внешностью, которую игрок выбрал для Надин.</p>
+      <p>Неизвестный ведёт её к открытому шкафчику Миранды, где лежит морозник. Увидев цветок, Надин сразу понимает, откуда её видения: так же было с дедушкой.</p>
+      <div class="tproof"><figure><img src="img/unknown.webp" alt="ТС2, 1.04" loading="lazy"><figcaption>ТС2, 1.04</figcaption></figure><figure><img src="img/hellebore.webp" alt="ТС2, 1.04" loading="lazy"><figcaption>ТС2, 1.04</figcaption></figure></div>
+      <p><b>Почему она себя не видит.</b> Позже Надин увидит даже призрак Миранды, а здесь — пустоту. Похоже, две версии одного человека просто не могут встретиться. Увидь Надин саму себя, она бы испугалась, не пошла к шкафчику, и всё, что случилось потом, не случилось бы.</p>
+      <p><b>Кассета.</b> В 1.09 Надин высовывается в окно и нащупывает на подоконнике кассету. Подбросили только что: она ещё не успела намокнуть. На кассете обрывки фраз: «Дату над дверью… вырезать», «Не зли… Кукла…». Чей голос, Надин разобрать не может. А Джимми слышит сразу: это её голос.</p>
+      <div class="tproof"><figure><img src="img/t2_tape_sill.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure><figure><img src="img/t2_tape_now.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure><figure><img src="img/t2_tape_hand.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div>
+      <p>Подпись на обороте сделана «незнакомым округлым почерком». Может, кассету подписывал кто-то другой. А может, Надин из будущего изменилась сильнее, чем можно представить.</p>
+      <p><b>Дата над дверью.</b> В 19-й выясняется, что знаки над выходом из башни — это дата. Кассета просила её вырезать, и кто-то уже это сделал. Надин сама гадает: «кто-то был в башне до меня?»</p>
+      <p><b>Морозник под подушкой.</b> В 1.18 Надин дважды за день ходит «на автомате», и из памяти выпадают целые куски. А утром под подушкой лежит морозник. Может, цветы она подкладывает себе сама, чтобы снова попасть туда, куда нужно.</p>
+      <div class="tproof"><figure><img src="img/plaque16.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/double18.webp" alt="ТС2, 1.18" loading="lazy"><figcaption>ТС2, 1.18</figcaption></figure></div>
+      <p><b>Ранняя версия: это было видение.</b> До 16-й серии казалось, что 1986-й Надин просто привиделся. Гул, писк прибора Даррена, нестерпимая боль, а потом всё как во сне, задом наперёд. Но Надин вернулась с кассетой, мятной конфетой и в чужой одежде. Значит, она правда там была.</p>
+      <div class="tproof"><figure><img src="img/tape16.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/candy16.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div>
+      <p class="pro">+ рука Неизвестного меняет цвет вместе с внешностью Надин.</p>
+      <p class="pro">+ Джимми узнаёт на кассете голос сестры.</p>
+      <p class="pro">+ одна из серий называется «Гостья из будущего».</p>
+    </article>
+    <article id="t-kak-ustroeno-vremya-linii-miry-i-tma" class="card main big" data-ep="19"><h3>Как устроено время: линии, миры и «Тьма»</h3>
+      <p><b>Мнимое время.</b> Это понятие звучит ещё в 1.01 на уроке, а объясняет его Даррен в 1.18. Мнимое время, по его словам, используют как удобный расчётный трюк, но это не значит, что оно не может существовать. «Мы привыкли думать, что время — прямая линия. Но физика допускает, что наша прямая — лишь одна из осей». Башня, считает он, преобразует время: шагнув за дверь, Надин выбрала иное направление и «соскользнула с прямой». «Для тебя это выглядит как путешествие в прошлое, хотя на самом деле ты просто вошла в другую точку той же структуры».</p>
+      <p><b>Одновременность.</b> Игра и правда раз за разом это показывает. В 1.05 Надин на свалке говорит «Всё будет хорошо», и сразу за ней ту же фразу произносит Надин в Старом Сентфоре. В 1.15 сцена повторяется слово в слово. Будто обе происходят одновременно.</p>
+      <p><b>Знак в лавке.</b> В 1.16 на стене у миссис Хилл висит деревянное блюдо: три сплетённые петли и цветок в середине. Это знак из сериала «Тьма», где три времени связаны в одну петлю. Только здесь в центре цветок, а в Сентфоре ключ ко времени — морозник.</p>
+      <div class="tproof"><figure><img src="img/t2_triquetra.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/oldtown.webp" alt="ТС2, 1.05" loading="lazy"><figcaption>ТС2, 1.05</figcaption></figure></div>
+      <p>Как именно это работает, есть две версии.</p>
+      <p><b>Одна линия, много дверей.</b> Прошлое, настоящее и будущее лежат на одной линии, а двери в башне ведут в важные даты: 1986, 1996 и дальше. Будущее влияет на прошлое так же, как прошлое на будущее. Тогда кто-то из будущего мог вмешаться в 1986-й, и Сара в этой линии зло так и не победила.</p>
+      <p><b>Два зеркальных мира.</b> Мир Сары и мир Надин. Люди в них одни и те же, а события наоборот. У Сары Писадейру упокоили, Джона остановили, Человек в маске ушёл. У Надин не было ничего из этого. Башня — мост между мирами, и спастись оба могут, только если будут передавать друг другу то, что знают. В «Тьме» оба мира родились из третьего, сломанного.</p>
+      <p><b>Нулевой километр.</b> В ТС2 есть кадр, где четвёрка Сары стоит каменными статуями, заросшими морозником. Возможно, это и есть точка, где время сломалось.</p>
+      <div class="tproof"><figure><img src="img/ts1_four.webp" alt="ТС1" loading="lazy"><figcaption>ТС1</figcaption></figure><figure><img src="img/sara16.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div>
+      <p><b>Выборы из ТС1.</b> Сценаристка Анна официально подтвердила, что выборы из ТС1 будут учитываться. Значит, разница между мирами не в том, что студия выбрала плохую концовку, а в самом сюжете.</p>
+      <p class="pro">+ ТС2, 1.16: знак из «Тьмы» прямо в лавке миссис Хилл.</p>
+      <p class="pro">+ ТС2, 1.05 и 1.15: одна и та же фраза в двух временах.</p>
+      <p class="pro">+ выборы ТС1 официально учитываются.</p>
+      <p class="con">− пока неясно, ходит ли через башню кто-то, кроме Надин.</p>
+    </article>
+    <article id="t-otkuda-videniya-i-teni-na-plenke" class="card main big" data-ep="19"><h3>Откуда видения и тени на плёнке</h3>
+      <p><b>Началось с Миранды.</b> В 1.01 Надин видит тень у неё за спиной, потом силуэт в школьном туалете. Дома у Миранды пахнет чем-то сладким и едким. Дальше хуже: олень в переулке, паукообразное существо у грузовика на свалке. И каждый раз рядом оказываются фиолетовые цветы.</p>
+      <div class="tproof"><figure><img src="img/shadow.webp" alt="ТС2, 1.01" loading="lazy"><figcaption>ТС2, 1.01</figcaption></figure><figure><img src="img/junk_shadow.webp" alt="ТС2, 1.05" loading="lazy"><figcaption>ТС2, 1.05</figcaption></figure><figure><img src="img/deer.webp" alt="ТС2, 1.06" loading="lazy"><figcaption>ТС2, 1.06</figcaption></figure></div>
+      <p><b>Пыльца.</b> Миранда была в Старом Сентфоре, у самой аномалии. Морозник лежал у неё в шкафчике, пыльца осела на одежде и вещах, а Надин потом трогала её кассеты и камеру. В ТС1 сок этого цветка — основа «Си-пи-25», и Саре хватило лёгкого касания, чтобы видеть кошмары целый сезон. Морозник там ещё и проводник в Мир грёз.</p>
+      <p><b>Но не всё — видения.</b> Тень за Мирандой проявилась на плёнке Элис в 1.05, а плёнку видят все. Объяснений три.</p>
+      <p><b>Брак.</b> Элис снимает на плёнку и проявляет вручную, говорит «может, передержали» и одёргивает Надин: «Осторожно, пока не шевели». В XIX веке из-за таких ошибок появлялись «снимки призраков».</p>
+      <p><b>Поле.</b> Даррен считает, что поле объекта даёт свет, которого не видит глаз, но видит плёнка.</p>
+      <p><b>Кто-то правда ходит.</b> Самое простое объяснение: за девочками действительно кто-то ходит.</p>
+      <div class="tproof"><figure><img src="img/miranda_shadow.webp" alt="ТС2, 1.05" loading="lazy"><figcaption>ТС2, 1.05</figcaption></figure><figure><img src="img/drawing.webp" alt="ТС2, 1.02" loading="lazy"><figcaption>ТС2, 1.02</figcaption></figure></div>
+      <p><b>Это видят все.</b> В 1.15 в больнице Сову оплетают лианы морозника, и это происходит на глазах у всех ребят, а не только у Надин.</p>
+      <div class="tproof"><figure><img src="img/t2_owl_vines1.webp" alt="ТС2, 1.15" loading="lazy"><figcaption>ТС2, 1.15</figcaption></figure><figure><img src="img/t2_owl_vines2.webp" alt="ТС2, 1.15" loading="lazy"><figcaption>ТС2, 1.15</figcaption></figure></div>
+      <p><b>А в 1.19 плёнка молчит.</b> Надин сидит у себя в комнате и боковым зрением ловит тёмный силуэт, который скользнул ей за спину. Элис смотрит на неё не моргая, будто о чём-то догадалась, достаёт камеру: «Не двигайся». В миг перед щелчком Надин накрывает тошнотворная волна, а сразу после становится очень легко. Снимок выскакивает и проявляется, но Элис только хмыкает: «Ничего не вижу». И тут в дверях замирает Джимми и в ужасе смотрит прямо перед собой.</p>
+      <div class="tproof"><figure><img src="img/t2_alice_snap19.webp" alt="ТС2, 1.19" loading="lazy"><figcaption>ТС2, 1.19</figcaption></figure><figure><img src="img/t2_alice_photo19.webp" alt="ТС2, 1.19" loading="lazy"><figcaption>ТС2, 1.19</figcaption></figure><figure><img src="img/jimmy19.webp" alt="ТС2, 1.19" loading="lazy"><figcaption>ТС2, 1.19</figcaption></figure></div>
+      <p>В 1.05 тень за Мирандой проявилась на плёнке, а в 1.19 тень за Надин на снимок не попала, хотя Надин её чувствует, а Джимми видит. Может, новая тень плёнке не показывается. А может, щелчок её просто спугнул, и на снимке уже было пусто.</p>
+      <p class="pro">+ видения начинаются рядом с Мирандой и её вещами.</p>
+      <p class="pro">+ ТС1: малой дозы цветка хватило Саре на целый сезон кошмаров.</p>
+      <p class="pro">+ то же, что видит Надин, видит и плёнка, и Элис.</p>
+      <p class="con">− Элис сама допускает, что снимок просто передержали.</p>
+      <p class="con">− ТС2, 1.19: на снимке Надин тени нет, хотя Джимми её видит.</p>
+    </article>
+    <article id="t-favna-ne-pobedili" class="card main big" data-ep="19"><h3>Фавна не победили</h3>
+      <p><b>Кто такой Фавн.</b> По легенде ТС1 фавны пришли из Мира грёз. Они давали людям урожай и здоровье, а взамен забирали детей. Люди перебили их стрелами с хрустальными наконечниками, но один выжил и затаился. Джон, он же Вильям, веками крал детей, чтобы ритуалом с хрустальной иглой вернуть его. И Фавн живёт за чужой счёт: «ещё шестьдесят пять лет».</p>
+      <div class="tproof"><figure><img src="img/t1_faun_rage.webp" alt="ТС1, 2.08" loading="lazy"><figcaption>ТС1, 2.08</figcaption></figure><figure><img src="img/t1_faun_years.webp" alt="ТС1, 2.07" loading="lazy"><figcaption>ТС1, 2.07</figcaption></figure><figure><img src="img/t1_john_sleep.webp" alt="ТС1, 2.07" loading="lazy"><figcaption>ТС1, 2.07</figcaption></figure></div>
+      <p><b>Дата.</b> Сара с друзьями победила Фавна в 1986-м, за неделю до Хеллоуина. А в 1.15 Надин попадает в 1986-й за несколько дней до Хеллоуина. Ровно в ту самую неделю.</p>
+      <p><b>Что всплывает в ТС2.</b> В лесу 1986-го стоит деревянная статуя с рогами. Дети-тени в 1.13 поют считалку «Мальчик вышел погулять… бесполезно его звать». В ТС1 детская песенка тоже была приманкой: призрак Сэма говорит, что её «напел тот, кто со мной это сделал».</p>
+      <div class="tproof"><figure><img src="img/statue16.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/kids13.webp" alt="ТС2, 1.13" loading="lazy"><figcaption>ТС2, 1.13</figcaption></figure><figure><img src="img/t1_sam_song.webp" alt="ТС1, 1.07" loading="lazy"><figcaption>ТС1, 1.07</figcaption></figure></div>
+      <p><b>Спящая четвёрка.</b> В ТС1 Джон признаётся: «Фиолетовые цветы усыпляли меня, держали в анабиозе». Похищенных детей клали в кольцо углублений с цветами. А в ТС2 есть кадр, где Сара, Кэнди, Бобби и Дерек стоят каменными статуями, заросшими морозником. Может, это не памятник. Может, в этой линии их просто усыпили.</p>
+      <p><b>Если битву проиграли</b>, проклятие Сентфора не снято, и Фавн может оказаться главным злодеем ТС2, а не Говард.</p>
+      <div class="tproof"><figure><img src="img/t2_statues.webp" alt="Окаменевшие Сара, Кэнди, Бобби и Дерек" loading="lazy"><figcaption>ТС2</figcaption></figure><figure><img src="img/t1_derek_back.webp" alt="ТС1, 2.08" loading="lazy"><figcaption>ТС1, 2.08</figcaption></figure></div>
+      <p class="pro">+ Надин попадает в 1986-й ровно в неделю битвы.</p>
+      <p class="pro">+ ТС2, 1.16: рогатая статуя в лесу 1986-го.</p>
+      <p class="pro">+ ТС1, 2.07: цветы держат людей в анабиозе.</p>
+      <p class="con">− «Он вернулся» в ТС1 говорит Дерек, и это о Человеке в маске, а не о Фавне.</p>
+    </article>
+    <article id="t-pisadeira-v-sentfore" class="card main big" data-ep="19"><h3>Писадейра в Сентфоре</h3>
+      <p><b>Кто она.</b> В ТС1 это Эйра Писада. Когда-то она спрятала младенца в колодце, убегая от погони, и так и не нашла его. Плач стал смехом, а Эйра — проклятием. Она вселяется в матерей, подражает чужим голосам, приходит к спящим. Её кукла как будто «выбирает» хозяйку.</p>
+      <div class="tproof"><figure><img src="img/t1_pisa.webp" alt="ТС1, 1.10" loading="lazy"><figcaption>ТС1, 1.10</figcaption></figure><figure><img src="img/t1_doll.webp" alt="ТС1, 1.05" loading="lazy"><figcaption>ТС1, 1.05</figcaption></figure></div>
+      <p><b>Мама Надин.</b> У мамы с 4-й серии постоянные мигрени. В 1.10 Надин просыпается ночью и видит, что мама стоит у лестницы и улыбается чужой, хищной улыбкой. Надин звонит в 112, и «оператор» велит спрятаться под кровать. Но он знает её имя и при этом ни разу не спросил адрес. Под кроватью ждёт существо с длинными руками, а потом Надин просыпается: «Сон…».</p>
+      <div class="tproof"><figure><img src="img/mom_grin.webp" alt="ТС2, 1.10" loading="lazy"><figcaption>ТС2, 1.10</figcaption></figure><figure><img src="img/t2_pisa_bed.webp" alt="ТС2, 1.10" loading="lazy"><figcaption>ТС2, 1.10</figcaption></figure><figure><img src="img/t2_mom_dream.webp" alt="ТС2, 1.10" loading="lazy"><figcaption>ТС2, 1.10</figcaption></figure></div>
+      <p><b>Сон или нет.</b> Многие уверены, что это просто сон и ничего этого на самом деле не было. Но в ТС1 Сара видела правду именно во сне, через ловец снов миссис Хилл. И чужой голос по телефону — ровно то, что умела Писадейра. Как и тень, которая в 1.13 говорит голосом Поппи.</p>
+      <p><b>Кукла.</b> В ТС1 кукла сама выбирает хозяйку. В 1.02 в лавке миссис Хилл она падает с полки прямо на Кэнди: «Эта кукла не спроста упала. Она выбрала тебя». Кэнди отказывается её брать, но в 1.05 мама Кэнди находит куклу у дочери на кровати. А в 1.07 кукла вдруг оказывается в комнате у Сары. Миссис Хилл объясняет, что её когда-то создали, чтобы защититься от Писадейры.</p>
+      <div class="tproof"><figure><img src="img/t1_doll_chose.webp" alt="ТС1, 1.02" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure><figure><img src="img/t1_doll_nelson.webp" alt="ТС1, 1.05" loading="lazy"><figcaption>ТС1, 1.05</figcaption></figure><figure><img src="img/t1_doll_sara.webp" alt="ТС1, 1.07" loading="lazy"><figcaption>ТС1, 1.07</figcaption></figure><figure><img src="img/t1_doll_hill.webp" alt="ТС1, 1.07" loading="lazy"><figcaption>ТС1, 1.07</figcaption></figure></div>
+      <p><b>Кукла в ТС2.</b> Кассета предупреждает: «Не зли… Кукла…». А в 1.15 Надин теряет сознание, и друзья переносят её в заброшенную больницу Старого Сентфора. Там она слышит плач и видит девочку с куклой в инвалидной коляске. Похоже, это Кэнди.</p>
+      <div class="tproof"><figure><img src="img/candy15.webp" alt="ТС2, 1.15" loading="lazy"><figcaption>ТС2, 1.15</figcaption></figure></div>
+      <p class="pro">+ ТС2, 1.10: «оператор» знает имя, но не спрашивает адрес.</p>
+      <p class="pro">+ ТС2, 1.13: чужой голос в темноте.</p>
+      <p class="pro">+ ТС2, 1.15: девочка с куклой, похожая на Кэнди.</p>
+      <p class="con">− в ТС1 Писадейру упокоили: вернули ей кости ребёнка и крестик.</p>
+    </article>
+    <article id="t-kto-takaya-zhenschina-u-vorot" class="card main big" data-ep="19"><h3>Кто такая женщина у ворот</h3>
+      <p><b>Она не стареет.</b> Женщина появляется дважды. В 1.11 стоит у ворот Говарда и повторяет слова из сна Надин, а Поппи рядом её даже не замечает. В 1.16, в 1986 году, ловит Надин на улице: «Здесь тебе быть нельзя. Ты чужачка». И за все эти годы она ни капли не изменилась. От неё пахнет нафталином, как от старых вещей в шкафу.</p>
+      <p><b>Время заедает.</b> Рядом с ней время ведёт себя странно. Если в 1.11 повторить фразу из начала сцены, её словно заклинивает: по экрану бегут помехи, и она начинает пересказывать сон Надин про маму и кровать. Будто две линии времени на секунду наложились друг на друга.</p>
+      <p>Версий две, и обе про одно: она застряла.</p>
+      <p><b>Версия первая: заблудшая душа.</b> Чёрные силуэты с длинными руками в ТС2 повсюду: за Мирандой на плёнке, на свалке, в раздевалке. В первой части таких не было. Зато в ней есть сцена, которая их объясняет.</p>
+      <p>В 1.08 Стефани рассказывает Саре случай из детства. Когда умер дедушка, бабушка не смирилась и стала искать способ до него докричаться. Однажды ночью маленькая Стефани открыла запретную дверь: бабушка била в барабан, а по стенам ползли тени с длинными пальцами. Бабушка обняла её и сказала: «Нет, детка, это не монстры. Это заблудшие души людей». Некоторые души задерживаются среди живых. Со временем их облик искажается, они теряются в лабиринтах безумия и забывают, кем были. Остаётся только смутная цель из прошлого.</p>
+      <div class="tproof"><figure><img src="img/ts1x_shadows.webp" alt="ТС1, 1.08: тени на стенах" loading="lazy"><figcaption>ТС1, 1.08</figcaption></figure></div>
+      <p>В 2.08 миссис Хилл называет её имя: Элизабет. Они дружили, вместе нашли записи ведьм, а потом Элизабет «увлеклась магией». Вскоре после той ночи она умерла.</p>
+      <p>А теперь поставьте рядом бабушку Стефани и женщину у ворот. Те же рыжевато-каштановые волнистые волосы до плеч, та же блузка с большим бантом. Только лицо мёртвое и перекошенное. Ровно то, о чём говорила Элизабет: «Со временем их облик искажается».</p>
+      <div class="tproof"><figure><img src="img/ts1x_grandma.webp" alt="Элизабет, ТС1" loading="lazy"><figcaption>ТС1, 1.08</figcaption></figure><figure><img src="img/woman16.webp" alt="Женщина в 1986" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/woman11.webp" alt="Она же сейчас" loading="lazy"><figcaption>ТС2, 1.11</figcaption></figure></div>
+      <p><b>Версия вторая: путешественница во времени.</b> В 1.19 Надин сама приходит к этой мысли. Женщина тоже ходила через башню, только задержалась слишком надолго и окончательно сошла с ума. Поэтому она одинаковая в обоих временах и сразу видит, что Надин «нездешняя». И Надин боится стать такой же.</p>
+      <p>Версии не спорят друг с другом. Душа, которая застряла между мирами, и человек, который застрял между временами, в Сентфоре могут оказаться одним и тем же.</p>
+      <p><b>Только она не добрая.</b> Сначала кажется, что в ней осталось что-то тёплое: она зовёт Надин в «тёплое место», будто помнит, что людей надо уводить от могильного холода. Но если пересмотреть сцену в подворотне, «тепло» там другое. Женщина ведёт Надин к люку, куда прачечная сливает кипяток: «Там пар растопит твои суставы, они станут гибкими и тёплыми. Плоть будет мягче». А перед этим бросает: «Он мне сказал».</p>
+      <div class="tproof"><figure><img src="img/tx_woman_1200.webp" alt="«Я отведу тебя в тёплое место»" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/tx_woman_3001.webp" alt="«Он мне сказал»" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/tx_woman_6181.webp" alt="«Плоть будет мягче»" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div>
+      <p>Похоже, от неё осталась одна цель — увести в тепло. А кто-то, тот самый «он», этой целью пользуется.</p>
+      <p><b>Она боится миссис Хилл.</b> В последний момент в подворотню заходит миссис Хилл и спасает Надин. И тут случается странное. Женщина, которая только что даже не вздрогнула, когда у неё подвернулась нога и вывернулась лодыжка, при виде старушки вжимается в стену и отползает к выходу, испуганно на неё озираясь.</p>
+      <div class="tproof"><figure><img src="img/tx_woman_fear.webp" alt="Женщина вжалась в стену и отползла по ней к выходу из подворотни, испуганно озираясь на старушку" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/hill16.webp" alt="Миссис Хилл" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div>
+      <p>Боли она не чувствует, а одну пожилую антикварщицу боится. Значит, миссис Хилл что-то умеет. Она ведь вместе с Элизабет нашла записи ведьм, и, может быть, знает о заблудших душах больше, чем рассказывала Саре.</p>
+      <p><b>Что не сходится.</b> А вот миссис Хилл в ответ просто отмахивается: сумасшедшая, бродит тут не первый год, местные её давно не слушают. Так не говорят о лучшей подруге. С Элизабет они вместе раскапывали ведьмино логово, делились всем, и миссис Хилл узнала бы её под любым искажением. Значит, либо от Элизабет в этой женщине уже ничего не осталось — даже лица, которое помнит подруга, — либо это вовсе не она, а кто-то, кто просто носит её облик.</p>
+      <p>Или есть третий вариант, самый грустный. Миссис Хилл всё поняла, но не подала виду при чужой девочке. А женщина отползала не от страха, а от стыда: подруга увидела, во что она превратилась.</p>
+      <p class="pro">+ ТС1, 1.08: тени с длинными руками на стенах и слова о заблудших душах дословно.</p>
+      <p class="pro">+ ТС1, 2.08: подругу миссис Хилл звали Элизабет, и она занималась магией.</p>
+      <p class="pro">+ у бабушки Стефани и женщины у ворот одна причёска и блузка с бантом.</p>
+      <p class="pro">+ ТС2, 1.11 и 1.16: не стареет, повторяет сон Надин, а у ворот её видит только Надин.</p>
+      <p class="pro">+ ТС2, 1.16: «Ты чужачка». Она знает, что Надин не отсюда.</p>
+      <p class="pro">+ ТС2, 1.16: при виде миссис Хилл она в страхе отползает к выходу.</p>
+      <p class="con">− ТС2, 1.16: миссис Хилл называет её сумасшедшей и не узнаёт в ней лучшую подругу.</p>
+    </article>
+    <article id="t-chetverki-i-proklyatiya" class="card main big" data-ep="19"><h3>Четвёрки и проклятия</h3>
+      <p><b>Saint Four.</b> Сентфор — это почти «святая четвёрка». Когда-то ведьмы прокляли город: тот, кто заслужит, будет мучиться, пока его не сменит новая четвёрка. Первую четвёрку Сара называет так: Аннет, Вильям, Эйра и мастер масок. Трое из них отправили Аннет на костёр. Художник Фредерик Уайт написал её казнь краской из морозника, и проклятие ушло в картину.</p>
+      <div class="tproof"><figure><img src="img/t1_painting.webp" alt="ТС1, 2.04" loading="lazy"><figcaption>ТС1, 2.04</figcaption></figure><figure><img src="img/t1_frederik.webp" alt="ТС1, 3.08" loading="lazy"><figcaption>ТС1, 3.08</figcaption></figure></div>
+      <p>В финале ТС1 Сара говорит это вслух, а Человек в маске отвечает вопросом, от которого становится не по себе.</p>
+      <div class="tproof"><figure><img src="img/t1_four.webp" alt="ТС1, 3.10" loading="lazy"><figcaption>ТС1, 3.10</figcaption></figure><figure><img src="img/t1_replace.webp" alt="ТС1, 3.10" loading="lazy"><figcaption>ТС1, 3.10</figcaption></figure></div>
+      <p><b>Седьмая концовка.</b> На пути смелости и сытого демона Сара с друзьями сжигают Человека в маске и сами становятся новой четвёркой. Их проклятия: Сара станет тенью, которая приносит смерть, куда бы ни ступила. Плач Кэнди будут слышать потерянные и идти на него к гибели. Бобби станет деревьями, которые рвутся наружу. Дерек сойдёт с ума от бессмертия.</p>
+      <p>Человек в маске прямо говорит, что проклятых когда-нибудь придётся освобождать таким же смельчакам. Может, это и есть задача Надин.</p>
+      <p><b>Проклятия в ТС2.</b> Всё это уже есть во второй части. Тень за Мирандой и в углу комнаты Надин. Детский плач и шёпот в библиотеке. Люди прорастают цветами: парень из пролога, сама Надин в своём видении.</p>
+      <div class="tproof"><figure><img src="img/deadnadin17.webp" alt="ТС2, 1.17" loading="lazy"><figcaption>ТС2, 1.17</figcaption></figure><figure><img src="img/ghost12.webp" alt="ТС2, 1.12" loading="lazy"><figcaption>ТС2, 1.12</figcaption></figure></div>
+      <p><b>Новая четвёрка.</b> Если смена идёт каждые десять лет, то в ТС2 четвёрка уже собирается: Надин, Руди, Элис и Поппи или Даррен. На снимке Элис в коридоре даже висит баннер «SAINTFOUR HIGH». А шкала демона из ТС1, где выбор «Он заслужил это!» кормит его, а «Бедняга!» оставляет голодным, может тихо считаться и сейчас.</p>
+      <div class="tproof"><figure><img src="img/t1_demon.webp" alt="ТС1, 3.08" loading="lazy"><figcaption>ТС1, 3.08</figcaption></figure></div>
+      <p class="pro">+ ТС1, 3.10: «может, вы нас смените?»</p>
+      <p class="pro">+ проклятия седьмой концовки видны в ТС2 почти дословно.</p>
+      <p class="pro">+ ТС2: баннер «SAINTFOUR HIGH».</p>
+      <p class="con">− седьмая концовка — только одна из семи, а выборы ТС1 учитываются.</p>
+      <p class="con">− в записанном прохождении цирк «навсегда ушёл в небытие».</p>
+    </article>
+    <article id="t-18-06-i-02-59-dve-minuty-sentfora" class="card big" data-ep="19"><div class="tag">автор сайта</div><h3>18:06 и 02:59: две минуты Сентфора</h3>
+      <p>Я пересмотрела всю первую часть и заметила время, которое повторяется слишком часто, чтобы быть случайностью.</p>
+      <p><b>ТС1, 1.01.</b> Взрослая Сара просыпается на диване после сна о прошлом. На часах 18:06. Через минуту в дверь стучат, а на полу лежит конверт: приглашение на похороны миссис Хилл. С этого письма начинается вся история, Сара возвращается в Сентфор. В финале выяснится, что письмо написал Человек в маске.</p>
+      <p><b>ТС1, 1.06.</b> Класс мисс Бейкер, в которую вселилась Писадейра. И снова 18:06, только теперь стрелки дёргаются вперёд и тут же возвращаются назад. Время буквально застревает на одной минуте, прямо рядом с проклятием.</p>
+      <div class="tproof"><figure><img src="img/ts1x_1806a.webp" alt="На часах показывало 18:06" loading="lazy"><figcaption>ТС1, 1.01</figcaption></figure><figure><img src="img/ts1x_1806b.webp" alt="Часы почему-то показывали 18:06" loading="lazy"><figcaption>ТС1, 1.06</figcaption></figure><figure><img src="img/ts1x_1806c.webp" alt="Стрелки двигались немного вперёд, а затем неизменно возвращались назад" loading="lazy"><figcaption>ТС1, 1.06</figcaption></figure></div>
+      <p>Об этом ещё в первом сезоне предупреждала миссис Хилл, когда в её лавке встали часы: «Животное и время всегда знают о приближающейся беде».</p>
+      <div class="tproof"><figure><img src="img/ts1x_hilltime.webp" alt="Будьте осторожны, девочки: животное и время всегда знают о приближающейся беде" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure></div>
+      <p><b>ТС2, 1.03.</b> Мама Миранды рассказывает, что в свой последний день Миранда позвонила брату ровно в 18:06 и сразу сбросила. Больше она не отвечала. А дальше её смерть, с которой и начинается всё расследование Надин.</p>
+      <div class="tproof"><figure><img src="img/tx_call1806.webp" alt="Миранда позвонила ему в 18:06 и тут же сбросила, а после уже не отвечала" loading="lazy"><figcaption>ТС2, 1.03</figcaption></figure></div>
+      <p>Получается, обе части стартуют в одну и ту же минуту. Там это письмо, которое возвращает Сару в Сентфор. Здесь звонок, после которого Миранды не стало.</p>
+      <p><b>И опять 18:06.</b> Это время всплывает даже за пределами игры. В Телеграм-канале Сидни Уитли, пока она ищет, что прячет корпорация, она находит тайник в стене: разбитые часы, и стрелки замерли на 18:06. А её пост «Я НАШЛА ЭТО» вышел ровно в 18:06.</p>
+      <div class="tg-proof"><blockquote class="tg-card"><div class="tg-hd"><img loading="lazy" src="img/sidney.webp" alt=""><b>Сидни Уитли ✍🏽</b><span>11 марта</span></div><p>Спускаюсь глубже. Нашла чей-то тайник в стене.<br>Разбитые часы (стрелки замерли на <mark>18:06</mark>).<br>Одинокий кед, испачканный чем-то чёрным и липким.<br>Блокнот. С рисунками! 😨</p><a href="https://t.me/sidneyWwW/8" target="_blank" rel="noopener">Открыть пост в Телеграме ↗</a></blockquote></div>
+      <p>И, может быть, Миранда звонила не просто так. Вдруг в 18:06 время снова споткнулось, и она это почувствовала.</p>
+      <p><b>А при чём тут 02:59.</b> Это уже скорее мои догадки. Часы на всех обложках ТС2 стоят на 02:59 — ровно за минуту до трёх ночи, «ведьминого часа», когда нечисть сильнее всего. Вот-вот что-то случится, но так и не случается. А ещё в Америке, где стоит Сентфор, весной часы переводят с 2:00 сразу на 3:00, и минут с 2:00 до 2:59 в эту ночь просто нет. Получается, на обложках застыла минута, которой раз в году не существует. Если 02:59 — время, застывшее снаружи, то 18:06 — минута, с которой внутри всё идёт под откос.</p>
+      <div class="tproof"><figure><img src="img/clock259.webp" alt="Часы на 02:59" loading="lazy"><figcaption>ТС2, обложки серий</figcaption></figure></div>
+    </article>
+    <article id="t-missis-hill-vse-znaet" class="card main big" data-ep="19"><h3>Миссис Хилл всё знает</h3>
+      <p><b>Нужная вещь нужному человеку.</b> Миссис Хилл всегда даёт её вовремя. Саре в первый же день предлагает ловец снов: с ним «можно увидеть во сне образы пойманных в ловушку духов». Кукла сама «выбирает» Кэнди. Перед битвой с Писадейрой именно миссис Хилл объясняет ритуал. А уезжая к дочери, оставляет лавку на Сару, и после погрома в лавке Сара находит хрустальную иглу, которой потом убьют Фавна. Как будто старушка знала, чем всё кончится.</p>
+      <p><b>Кому она не продаёт.</b> Мистеру Дэвису, директору музея, она не продаёт ничего. Он годами выпрашивал у неё картину Уайта «Фиолетовый яд» с чёрным морозником — «а она ни в какую».</p>
+      <div class="tproof"><figure><img src="img/t1_davis_poison.webp" alt="ТС1, 2.04" loading="lazy"><figcaption>ТС1, 2.04</figcaption></figure><figure><img src="img/t1_hill_nosell.webp" alt="ТС1, 2.08" loading="lazy"><figcaption>ТС1, 2.08</figcaption></figure><figure><img src="img/t1_hill_friend.webp" alt="ТС1, 2.08" loading="lazy"><figcaption>ТС1, 2.08</figcaption></figure></div>
+      <p><b>Элизабет.</b> Саре она признаётся, что видит в ней себя в молодости. Только с ней всегда была верная подруга Элизабет. Вместе они нашли записи ведьм. Потом Элизабет ушла в магию, а миссис Хилл — в антиквариат, к вещам, которые хранят историю.</p>
+      <p><b>В ТС2.</b> В 1.16 Надин попадает именно к ней. В лавке висит картина с морозником — может, тот самый «Фиолетовый яд». Миссис Хилл бесплатно даёт Надин конфету, как когда-то вещи Саре. А потом сама заговаривает о Саре и называет её полное имя, будто знает, что Надин оно ещё пригодится. И женщина у ворот при виде миссис Хилл в страхе отползает.</p>
+      <div class="tproof"><figure><img src="img/t2_hill_meet.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/t2_hill_painting.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure><figure><img src="img/t2_hill_sara.webp" alt="ТС2, 1.16" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div>
+      <p class="pro">+ ТС1: ловец снов, ритуал, игла — всё через неё.</p>
+      <p class="pro">+ ТС2, 1.16: картина с морозником и знак из «Тьмы» в её лавке.</p>
+      <p class="pro">+ ТС2, 1.16: называет Надин полное имя Сары.</p>
+      <p class="con">− письмо на её похороны написал Человек в маске, так что дату своей смерти она не предсказывала.</p>
+    </article>
+    <article id="t-kotenok-deksa-pitomets-sary" class="card main big" data-ep="19"><h3>Котёнок Декса — питомец Сары</h3>
+      <p><b>Котёнок в переписке.</b> Декс показывает своего котёнка, и он очень похож на питомца Сары из ТС1. Было бы простым совпадением, если бы тот питомец не был проклят.</p>
+      <p><b>Собака в лавке.</b> В 1.02 Сара с Кэнди заходят к миссис Хилл, и её чёрная собака Малютка вдруг звереет: глаза наливаются кровью, на клыках пена. Кажется, что она кидается на девочек. Но когда всё стихает, у Кэнди в руках кукла, которая упала на неё с полки прямо во время нападения. Похоже, собака рвалась не к девочкам, а к кукле Писадейры за их спинами. И появилась она у миссис Хилл только накануне.</p>
+      <div class="tproof"><figure><img src="img/t1_dog_eyes.webp" alt="ТС1, 1.02" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure><figure><img src="img/t1_dog_stray.webp" alt="ТС1, 1.02" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure></div>
+      <p><b>Кошка в окне.</b> Через пару ночей, в 1.04, к Саре в окно просится чёрная кошка. Кроме собаки, никаких животных в лавке Сара не помнит, но почему-то сразу понимает, чья это кошка. А когда миссис Хилл потом предлагает выбрать питомца, она говорит, что тот «она выбрала тебя первой».</p>
+      <div class="tproof"><figure><img src="img/t1_cat_hill.webp" alt="ТС1, 1.04" loading="lazy"><figcaption>ТС1, 1.04</figcaption></figure></div>
+      <p><b>Это одно существо.</b> В 2.07 Джон говорит, что питомец «такой же, как я» и когда-то принадлежал его сестре. В финале Человек в маске объясняет до конца: питомец пытался спасти Аннет и не успел, проклятие задело и его, и с тех пор он бессмертен и меняет облик. Поэтому выбор между кошкой, собакой и вороном ничего не ломает. Собака в лавке и кошка в окне — один и тот же зверь.</p>
+      <div class="tproof"><figure><img src="img/t1_pet.webp" alt="ТС1, 2.07" loading="lazy"><figcaption>ТС1, 2.07</figcaption></figure><figure><img src="img/t1_pet_form.webp" alt="ТС1, 3.10" loading="lazy"><figcaption>ТС1, 3.10</figcaption></figure></div>
+      <p><b>А как же «умер»?</b> Сара отвечает, что питомец умер в Балтиморе пару лет назад, и Человек в маске называет его везунчиком: значит, она его освободила. Но существо, которое бессмертно и меняет облик, могло и не умереть, а просто стать кем-то другим. Например, котёнком у парня из другого времени.</p>
+      <div class="tproof"><figure><img src="img/t1_pet_died.webp" alt="ТС1, 3.10" loading="lazy"><figcaption>ТС1, 3.10</figcaption></figure></div>
+      <p class="pro">+ ТС1, 3.10: питомец бессмертен и меняет облик.</p>
+      <p class="pro">+ ТС1, 1.02: собака звереет ровно тогда, когда с полки падает кукла.</p>
+      <p class="con">− кроме похожего котёнка на фото, других связей с Дексом пока нет.</p>
+    </article>
+    <article id="t-chi-deti-deks-i-poppi" class="card main big" data-ep="19"><h3>Чьи дети Декс и Поппи</h3>
+      <p>Декс и Поппи слишком часто оказываются рядом со следами «Чёрных драконов», банды из ТС1.</p>
+      <p><b>Монета.</b> В 1.08 Декс показывает золотую монету с драконом: нашёл в заброшенном доме, и это монета «Чёрных драконов, одной старой сентфорской банды». Откуда он это знает? И это не просто похожая монета. В ТС1, 3.04 Сара навещает Вишню в камере, и он отдаёт ей точно такую же: сделал себе на удачу и просит вернуть, когда выйдет. Монету Вишня сделал сам, для себя. Выходит, Декс держит в руках вещь, которую Вишня доверил Саре. Конечно, банда потом могла наделать таких монет больше. Но если нет, прошлое и настоящее здесь сплетаются слишком тесно.</p>
+      <div class="tproof"><figure><img src="img/coin17.webp" alt="ТС2, 1.08" loading="lazy"><figcaption>ТС2, 1.08</figcaption></figure><figure><img src="img/ts1_cherry.webp" alt="ТС1" loading="lazy"><figcaption>ТС1</figcaption></figure></div>
+      <p><b>Отец — Бурый.</b> В 1.18 выясняется, что у Поппи на спине шрам от ножа. Папа в больнице сказал, что она играла и налетела на нож. Сама Поппи думает иначе.</p>
+      <div class="tproof"><figure><img src="img/t2_poppy_knife.webp" alt="ТС2, 1.18" loading="lazy"><figcaption>ТС2, 1.18</figcaption></figure></div>
+      <p>В ТС1 есть «дракон», который с ножом не расстаётся. В 2.02 Бурый подкарауливает Сару на улице и приставляет нож к её горлу. Глаза у него чёрные: он сидит на Си-пи-25 от «лесного лекаря». В 2.07 он вытирает нож о тушу оленя. Человек, который в 1986-м на наркотиках бросался с ножом на школьницу, через тридцать с лишним лет вполне мог спиться и не помнить, что сделал с дочерью.</p>
+      <div class="tproof"><figure><img src="img/t1_bury_knife.webp" alt="ТС1, 2.02" loading="lazy"><figcaption>ТС1, 2.02</figcaption></figure><figure><img src="img/t1_bury_drug.webp" alt="ТС1, 2.02" loading="lazy"><figcaption>ТС1, 2.02</figcaption></figure><figure><img src="img/t1_bury_deer.webp" alt="ТС1, 2.07" loading="lazy"><figcaption>ТС1, 2.07</figcaption></figure></div>
+      <p>Тогда Декс и Поппи — брат и сестра по отцу. Ему 18, ей 17, так что матери у них могут быть разные. И внешне Декс похож на Бурого: те же чёрные волосы и тёмные глаза.</p>
+      <div class="tproof"><figure><img src="img/dex.webp" alt="ТС2" loading="lazy"><figcaption>ТС2</figcaption></figure><figure><img src="img/t1_bury_face.webp" alt="ТС1, 2.07" loading="lazy"><figcaption>ТС1, 2.07</figcaption></figure></div>
+      <p><b>Декс — сын Аарона, Поппи — дочь Вишни.</b> Оба ездят на байках, а ранняя внешность Поппи похожа на Вишню. Но в эту версию трудно поверить. Вишня — фаворит ТС1, и вряд ли сценаристка сделает его отцом, который в пьяном угаре пырнул дочь ножом. К тому же, когда ребята приходят в комиссионку к Итану Коулману, брату-близнецу Вишни, племянницу он, наверное, узнал бы сразу.</p>
+      <p><b>Поппи — внучка Вишни.</b> Эта версия снимает главное возражение. В 1986-м Вишне лет двадцать пять, а сам он говорит, что часто был в разъездах и в Сентфоре почти не бывал. Он вполне мог осесть в другом городе: в 90-х у него родился бы сын или дочь, а в конце нулевых Поппи. Потом кто-то из семьи вернулся в Сентфор. Тогда пьяный отец с ножом — не Вишня, а его ребёнок. Итан мог и не узнать внучку брата: нигде не сказано, что братья общались. И Поппи не зря дают вишнёвый блеск и образ с драконом.</p>
+      <div class="tproof"><figure><img src="img/t_cherry_travel.webp" alt="Вишня" loading="lazy"><figcaption>Вишня</figcaption></figure><figure><img src="img/t_poppy_dragon2.webp" alt="ТС2" loading="lazy"><figcaption>ТС2</figcaption></figure></div>
+      <p><b>Просто дети «драконов».</b> Самый спокойный вариант. Декс и Поппи не обязательно родня, их родители просто были в одной банде, а банда называла себя семьёй. Тогда понятно, откуда Декс знает монету и почему Итан может знать Поппи в лицо.</p>
+      <p class="pro">+ ТС2, 1.18: на Поппи с ножом кинулся пьяный отец.</p>
+      <p class="pro">+ ТС1, 2.02: Бурый на наркотиках нападает с ножом на школьницу.</p>
+      <p class="pro">+ ТС1, 3.04 и ТС2, 1.08: у Декса та самая монета, которую Вишня сделал себе на удачу.</p>
+      <p class="pro">+ ТС2: у Поппи образ с драконом и косуха вишнёвого цвета.</p>
+      <p class="con">− фамилия у Поппи отцовская, Эмерсон, а Декс — Хоук. При общем отце он должен носить фамилию матери.</p>
+      <p class="con">− Бурый — прозвище, настоящая фамилия в ТС1 не звучит. Пьяным отцом мог оказаться кто угодно.</p>
+    </article>
+    <article id="t-skeiter-na-dvuh-liniyah-vremeni" class="card main" data-ep="19"><h3>Скейтер на двух линиях времени</h3><p>Парня в шапке со скейтом человек «Уорлока» ранил в лесу, и прозвучал приказ: «возврат в исходную точку». Домой парень не вернулся. А в 1986-м к Надин подходит парень со скейтом. Вряд ли это совпадение.</p><div class="tproof"><figure><img src="img/forest_guy.webp" alt="Парень в шапке" loading="lazy"><figcaption>ТС2, 1.08</figcaption></figure><figure><img src="img/skater86.webp" alt="Парень со скейтом в 1986" loading="lazy"><figcaption>ТС2, 1.16</figcaption></figure></div><p><i>Пока, кроме скейта, никаких сходств нет. Это просто догадка, что всё это не случайно.</i></p></article>
+    </div>
+    <aside class="sources thanks">
+      <b>Откуда теории</b>
+      <p>Большая часть теорий здесь собрана у людей, которые разбирают «Тени Сентфора» внимательнее всех. Я пересказала их своими словами и сверила с самими сериями. Спасибо вам за труд, за часы пересмотров и за то, что замечаете то, мимо чего проходят все остальные. Без вас этой доски бы не было 💜</p>
+      <ul>
+        <li><b>Снежана Апрельская</b>: <a href="https://t.me/snezhanagram" target="_blank" rel="noopener">Телеграм</a>, <a href="https://www.tiktok.com/@novelsnowww" target="_blank" rel="noopener">ТикТок</a> и <a href="https://youtu.be/0I40CdnblYQ" target="_blank" rel="noopener">YouTube</a></li>
+        <li><b>Штаны Малека</b>: <a href="https://www.tiktok.com/@shtanimaleka" target="_blank" rel="noopener">ТикТок</a> и <a href="https://www.youtube.com/@shtanimaleka" target="_blank" rel="noopener">YouTube</a></li>
+        <li>Телеграм-канал <a href="https://t.me/Shadows_of_Saintfour_2_RC" target="_blank" rel="noopener">«Тени Сентфора 2: Вне времени»</a></li>
+        <li>и все, кто пишет догадки в комментариях под видео</li>
+      </ul>
+      <p class="th-special">Отдельное спасибо <b>Снежане Апрельской</b>: она помогала с сайтом, подсказывала и давала советы, пока доска собиралась 💜</p>
+      <p class="th-own">Теория «18:06 и 02:59» — моя.</p>
+    </aside>
+</section>
+<!-- COVERS -->
+
+<!-- QUESTIONS -->
+<section data-tab="questions" id="tab-questions">
+  <h2>Открытые вопросы</h2>
+  <ul class="stickies">
+    <li data-ep="1" data-solved="16"><span>Кого Говард «выпустил» в зону и что с ними стало?</span><em class="lead" data-from="5" data-until="7">Двое пропавших парней? И не один ли из них Малкольм Браун?</em><em class="lead" data-from="7" data-until="8">Темноволосый парень из пролога похож на Малкольма с аватара: чёрные волосы, кожаная куртка.</em><em class="lead" data-from="8" data-until="16">Малкольм Браун и Льюис Холт: пропали вместе в Старом Сентфоре.</em><em class="ans" data-from="16">Малкольм Браун (Надин узнала его в башне) и, скорее всего, Льюис Холт, рыжий парень из пролога.</em></li>
+    <li data-ep="1" data-solved="22"><span>Что случилось с Мирандой в Старом Сентфоре и кто был с ней?</span><em class="lead" data-from="6" data-until="22">Том, Сова. Был у её дома в день смерти.</em><em class="ans" data-from="22">С ней был Том. А тень перешла в неё от Джимми, когда он с Надин вернулся в прошлое.</em></li>
+    <li data-ep="1" data-solved="7"><span>Связан ли Декс с Малкольмом Брауном?</span><em class="ans" data-from="7">Оба Совы.</em></li>
+    <li data-ep="2" data-solved="23"><span>Как на самом деле погибла Миранда?</span><em class="lead" data-from="3">На последней записи она просит о помощи…</em><em class="lead" data-from="20">Надин: за Мирандой ходила та же тварь, и Миранда могла сделать это сама.</em><em class="ans" data-from="23">Это был суицид. Миранда не выдержала того, что ей нашёптывала тень.</em></li>
+    <li data-ep="3" data-solved="3"><span>Миранда оставила записку?</span><em class="ans" data-from="3">Записки не было. Шериф её не нашёл.</em></li>
+    <li data-ep="3" data-solved="18"><span>Кто такой Ш.М.Б.?</span><em class="ans" data-from="18">Шарлотта Мария Боуи, мама Даррена.</em></li>
+    <li data-ep="4"><span>Кто в серой машине и что им нужно?</span><em class="lead">Может, работники «Уорлока»?</em><em class="lead" data-from="7">Говард приехал в школу на такой же, только белой.</em></li>
+    <li data-ep="4"><span>Кто прислал Надин её фото со спины?</span><em class="lead" data-from="10">Надин из будущего?</em></li>
+    <li data-ep="4"><span>Кто «он», который нашёл Надин?</span><em class="lead" data-from="6">Миранда: «Он тебя ищет».</em><em class="lead" data-from="16">Женщина: «Он мне сказал».</em></li>
+    <li data-ep="5"><span>О чём спорили шериф и Говард у свалки?</span></li>
+    <li data-ep="6" data-solved="10"><span>Что Поппи ищет на свалке?</span><em class="lead" data-until="10">Что-то про Миранду?</em><em class="ans" data-from="10">Ничего: снимала саму свалку из брошенных машин.</em></li>
+    <li data-ep="6" data-solved="7"><span>Чья кровь на стороже?</span><em class="ans" data-from="7">Ничья. Бутафорская, это был розыгрыш.</em></li>
+    <li data-ep="7" data-solved="19"><span>Почему Поппи недолюбливает директора?</span><em class="ans" data-from="19">Он встречался с её мамой и бросил её. И он у Говарда на побегушках.</em></li>
+    <li data-ep="7" data-solved="8"><span>Почему Том перестал выходить на работу?</span><em class="ans" data-from="8">Он был уже мёртв.</em></li>
+    <li data-ep="7" data-solved="18"><span>Какое фото Даррен показывал Дексу?</span><em class="ans" data-from="18">Мамины снимки странных мест в Старом Сентфоре.</em></li>
+    <li data-ep="7" data-solved="8"><span>Кто лежит в яме?</span><em class="ans" data-from="8">Томас Найтли.</em></li>
+    <li data-ep="8" data-solved="23"><span>Кто убил Тома?</span><em class="lead" data-from="10">На записи Поппи выстрел, тело закапывают люди в пиджаках. Поппи: похоже на корпорацию.</em><em class="lead" data-from="11">Дыра в виске от пули, значит, стрелял человек.</em><em class="lead" data-from="20">Приборы «Уорлока» стояли у его могилы: тварь не отходила от него и после смерти.</em><em class="ans" data-from="23">Почти наверняка люди «Уорлока». В нём сидела тень, и его застрелили на вечеринке у свалки.</em></li>
+    <li data-ep="8" data-solved="11"><span>Чья аппаратура спрятана на свалке?</span><em class="lead" data-from="10" data-until="11">На записи Поппи её ставят те же люди.</em><em class="ans" data-from="11">«Уорлока».</em></li>
+    <li data-ep="8" data-solved="18"><span>Кто такой человек в костюме и на кого работает?</span><em class="lead" data-until="18">«Уорлок»?</em><em class="ans" data-from="18">«Уорлок».</em></li>
+    <li data-ep="8"><span>Почему видения видит только Надин?</span><em class="lead" data-from="11">Женщину у ворот Поппи не видела.</em><em class="lead" data-from="16">И как Сову оплели лианы, видели все.</em><em class="lead" data-from="19">Джимми тоже что-то увидел: «К-кто это?»</em><em class="lead" data-from="20">Надин думает, что подцепила это в башне, где оно притворялось Малкольмом.</em></li>
+    <li data-ep="9" data-solved="22"><span>Куда делся парень в шапке после «возврата в исходную точку»?</span><em class="lead" data-until="10">Говард валит на Сов.</em><em class="lead" data-from="10"><s>Говард валит на Сов.</s> Точно не Совы.</em><em class="ans" data-from="22">Его тело лежит в башне.</em><em class="ans" data-from="23">Это Саймон. Люди «Уорлока» подстрелили его и заперли в башне, там он и умер.</em></li>
+    <li data-ep="9"><span>Кто подкинул Надин кассету и что на ней?</span><em class="ans" data-from="10">Предупреждение для Надин.</em><em class="lead" data-from="10">Джимми: голос похож на её. Надин из будущего?</em></li>
+    <li data-ep="10"><span>Что за «дата над дверью» и «кукла» из предупреждения на кассете?</span><em class="lead" data-from="19">Знаки над выходом из башни оказались датой: 23 сентября 2023, ночь вылазки.</em></li>
+    <li data-ep="10"><span>Кто стёр доску Надин в редакции?</span><em class="lead">Говард? Прямых доказательств нет. Замок в редакции был сломан.</em></li>
+    <li data-ep="10"><span>Какие отношения у Декса и Поппи?</span></li>
+    <li data-ep="11"><span>Кто такой «Объект 1»?</span><em class="lead">Башня в мёртвой зоне?</em><em class="lead" data-from="18">Мама Даррена звала башню Обскуром.</em><em class="lead" data-from="21">Анкета: «Родственное поле с Объектом 1». А у Джимми, в котором тень, поле «как у башни».</em></li>
+    <li data-ep="11"><span>Кто был в библиотеке до Надин?</span><em class="lead">Пахло дорогими духами. Говард внизу: «Считай это моим последним предупреждением».</em></li>
+    <li data-ep="12"><span>Какой общий секрет у Элис и Поппи?</span><em class="lead">Поппи: «Если я нарушу обещание, ты можешь нарушить своё».</em></li>
+    <li data-ep="19"><span>Кто вырезает даты над дверями башни?</span><em class="lead">Надин: если они не появляются сами, значит, кто-то был в башне до неё?</em><em class="lead" data-from="22">Над другой дверью «23» и много зарубок.</em></li>
+    <li data-ep="21"><span>Какое время внутри башни?</span><em class="lead">Даррен: башня не подчиняется законам физики. Надин зашла в главную дверь, а вышла из другой, и выбросило её далеко от башни.</em></li>
+    <li data-ep="22"><span>Кто звонит в колокол и почему теперь его слышит и Джимми?</span></li>
+    <li data-ep="22" data-solved="23"><span>Кто стоял в лаборатории Уорлока за окнами и смотрел на Надин и Джимми?</span><em class="ans" data-from="23">Говард.</em></li>
+    <li data-ep="23"><span>При чём тут дедушка и что у него в чемоданах?</span><em class="lead">В детстве Надин впервые увидела морозник в лесу с ним, и он часто мелькает в её кошмарах: «Дедушка, нет!»</em><em class="lead">Он приехал в самом конце, а в чемоданах то, что питало её детские страхи.</em></li>
+    <li data-ep="23"><span>Что это за гроб в конце серии и почему он треснул?</span></li>
+  </ul>
+</section>
+
+<section data-tab="ts1lore" id="tab-ts1lore">
+  <h2>Тени Сентфора 1</h2>
+  <p class="lead">Первая часть вышла в 2019 году. Героиня — Сара О'Нил. История идёт двумя линиями: осень и зима 1986 года, когда Сара школьницей переезжает в Сентфор, и 1996-й, когда она возвращается сюда взрослой. Здесь коротко: кто есть кто, легенда, сюжет и концовки.</p>
+  <p class="src">Спойлеры ко всей ТС1. Как это связано с ТС2, смотри во вкладке «Связь с ТС1».</p>
+  <div class="tc1-wrap">
+  <div>
+    <h3 class="sub">Герои ТС1</h3>
+    <div class="pins pins7">
+      <div class="item"><figure class="pol"><img src="img/ts1_sara.webp" alt="Сара О'Нил" loading="lazy"><figcaption>Сара О'Нил</figcaption></figure><p class="note">Героиня. В 1986-м переехала с родителями из Балтимора, зимой сбежала обратно. В 1996-м вернулась по письму миссис Хилл.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_candy.webp" alt="Кэнди Нельсон" loading="lazy"><figcaption>Кэнди Нельсон</figcaption></figure><p class="note">Лучшая подруга Сары. Тайно встречалась с Сэмом. Чуть не утонула в болоте с фиолетовыми цветами, пропала, нашлась в больнице.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_bobby.webp" alt="Бобби Тёрнер" loading="lazy"><figcaption>Бобби Тёрнер</figcaption></figure><p class="note">Младший брат Майкла, очкарик и астматик. Любит редкие цветы. Пропал во 2 сезоне, нашли спящим среди цветов.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_derek.webp" alt="Дерек Никсон" loading="lazy"><figcaption>Дерек Никсон</figcaption></figure><p class="note">Сын шерифа, задира, друг детства. Это он говорит «Он вернулся», когда с дерева падает маска. Отца убил Человек в маске, а мать когда-то попала к нему в цирк и умерла в подворотне.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_luke.webp" alt="Люк Моринг" loading="lazy"><figcaption>Люк Моринг</figcaption></figure><p class="note">Приехал из Чикаго, друг Сэма. Родители охотились за проклятой картиной. В пожаре в их доме Люк выживает, только если Сара с ним близка.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_michael.webp" alt="Майкл Тёрнер" loading="lazy"><figcaption>Майкл Тёрнер</figcaption></figure><p class="note">Старший брат Бобби, капитан команды, «Чёрный дракон». Убил Фавна хрустальной иглой.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_adele.webp" alt="Адель Моринг" loading="lazy"><figcaption>Адель Моринг</figcaption></figure><p class="note">Сестра Люка. Пережила пожар, в 1996-м живёт в особняке. Закопала проклятую картину в лесу.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_cherry.webp" alt="Вишня" loading="lazy"><figcaption>Вишня</figcaption></figure><p class="note">Вор из «Чёрных драконов», настоящего имени не называет. Украл картину из музея и обжёг руки. Его брат-близнец Итан был гидом в музее.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_aaron.webp" alt="Аарон Хилл" loading="lazy"><figcaption>Аарон Хилл</figcaption></figure><p class="note">Внук миссис Хилл, глава «Чёрных драконов». Позже ненадолго женат на Адель.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_john.webp" alt="Джон Холл" loading="lazy"><figcaption>Джон Холл</figcaption></figure><p class="note">Новенький в 1986-м. На самом деле Вильям, брат Аннет. Каждые 10 лет отдаёт Фавну четверых детей, чтобы видеться с матерью в Мире грёз.</p></div>
+      <div class="item"><figure class="pol swap" tabindex="0" onclick="this.classList.toggle('on')"><span class="swap-w"><img src="img/ts1_sam.webp" alt="Сэм" loading="lazy"><img class="alt" src="img/ts1_sam_ghost.webp" alt="Сэм-призрак" loading="lazy"></span><figcaption>Сэм</figcaption></figure><p class="note">Друг Люка. Сбежал от жестокого отчима, выучил песенку у Писадейры, найден мёртвым в лесу с CP-25. Потом являлся призраком. <i class="swap-hint"><span class="h-hov">Наведи</span><span class="h-tap">Нажми</span> на фото.</i></p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_mom.webp" alt="Мама Сары" loading="lazy"><figcaption>Мама Сары</figcaption></figure><p class="note">Ушла от мужа, встречалась с шерифом. Человек в маске сделал её циркачкой Атлатонин «за безответственность». Сара сорвала с неё маску.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_sheriff.webp" alt="Шериф Никсон" loading="lazy"><figcaption>Шериф Никсон</figcaption></figure><p class="note">Джонатан Никсон, отец Дерека. Уверял, что пропажи — единичный случай. Человек в маске свернул ему шею.</p></div>
+    </div>
+    <h3 class="sub" style="margin-top:30px">Кто ещё был в Сентфоре</h3>
+    <div class="pins pins7">
+      <div class="item"><figure class="pol"><img src="img/ts1_hill.webp" alt="Миссис Хилл" loading="lazy"><figcaption>Миссис Хилл</figcaption></figure><p class="note">Элеонора Хилл, хозяйка антикварной лавки, где все стены в часах. Дарит Саре ловец снов и питомца, учит словам, которые зовут души умерших. Во 2 сезоне уезжает и оставляет лавку на Сару. К 1996-му её уже нет.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_eliz.webp" alt="Элизабет" loading="lazy"><figcaption>Элизабет</figcaption></figure><p class="note">Лучшая подруга юной Элеоноры Хилл. Вместе они нашли записи ведьм, а потом Элизабет ушла в магию. Бабушка Стефани: внучка в детстве видела её ритуал и тени на стенах. Вскоре после этого Элизабет умерла.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_stef.webp" alt="Стефани" loading="lazy"><figcaption>Стефани</figcaption></figure><p class="note">Одноклассница Сары, зовёт её на вечеринку в День Колумба. Рассказывает, как в детстве увидела бабушкин ритуал и тени с длинными пальцами на стенах.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_baker.webp" alt="Мисс Бейкер" loading="lazy"><figcaption>Мисс Бейкер</figcaption></figure><p class="note">Новая учительница: очки, светлые кудри, нервный тик. В неё вселилась Писадейра. У колодца чудовище сбрасывает её тело и снова принимает свой облик.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_megan.webp" alt="Меган Уайт" loading="lazy"><figcaption>Меган Уайт</figcaption></figure><p class="note">Девять лет. Белочка уводит её в лес, тень угощает фиолетовыми конфетами, и Меган засыпает. С неё начинается 2 сезон и охота Джона за детьми для Фавна.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_freddy.webp" alt="Фредди Браун" loading="lazy"><figcaption>Фредди Браун</figcaption></figure><p class="note">Одноклассник Сары, вместе с ней делает проект для мисс Дрю. Джон зовёт его в магазин за ватманом, и Фредди становится последним ребёнком для Фавна.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_walter.webp" alt="Мистер Уолтер" loading="lazy"><figcaption>Мистер Уолтер</figcaption></figure><p class="note">Охранник свалки «Чёрных драконов». Ходит по школе с фото сына Дэвида и спрашивает всех, не видели ли мальчика.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_bury.webp" alt="Бурый" loading="lazy"><figcaption>Бурый</figcaption></figure><p class="note">Из «Чёрных драконов», с ножом не расстаётся. Сидит на CP-25 от «лесного лекаря» и по его просьбе подстерегает Сару, чтобы припугнуть.</p></div>
+      <div class="item"><figure class="pol"><img src="img/ts1_mord.webp" alt="Мордогрыз" loading="lazy"><figcaption>Мордогрыз</figcaption></figure><p class="note">Карлик из цирка уродов, бывший расхититель могил. Маску получил за жадность. В финале просит передать родным фотографию, где он ещё человек.</p></div>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="sub">Легенда Сентфора по порядку</h3>
+    <div class="pins">
+      <div class="item"><figure class="pol"><img src="img/leg_faun.webp" alt="Фавны" loading="lazy"><figcaption>Фавны</figcaption></figure><p class="note"><span class="era">давным-давно</span>«Короли леса» из Мира грёз. Давали людям здоровье и урожай, а взамен забирали детей. Люди перебили их стрелами с хрустальными наконечниками. Последний Фавн остался на земле деревянной статуей и ждёт, когда его оживят.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_flower.webp" alt="Фиолетовый морозник" loading="lazy"><figcaption>Фиолетовый морозник</figcaption></figure><p class="note"><span class="era">тогда же</span>Кровь раненого Фавна окрасила белый морозник в фиолетовый. Цветок лечит безумие, усыпляет на годы, сохраняя возраст, и открывает дорогу в Мир грёз.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_witches.webp" alt="Проклятие ведьм" loading="lazy"><figcaption>Проклятие ведьм</figcaption></figure><p class="note"><span class="era">задолго до Аннет</span>Сентфор кишел ведьмами, и на них охотились. Тогда ведьмы создали проклятие для тех, «кто заслужит»: четверо будут мучить город, пока их не сменит новая четвёрка.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_annet.webp" alt="Аннет и Вильям" loading="lazy"><figcaption>Аннет и Вильям</figcaption></figure><p class="note"><span class="era">XVII в.</span>Брат и сестра с тяжело больной матерью. Мать сама попросила Аннет помочь ей уйти, и та принесла из леса травы. Вильям так и не простил сестру.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_mask_love.webp" alt="Мастер масок" loading="lazy"><figcaption>Мастер масок</figcaption></figure><p class="note"><span class="era">XVII в.</span>Жених Аннет, делал маски для богатых. После пожара в мастерской его лицо обгорело, и Аннет его оставила. Он «потерял всё, включая красоту», и решил отомстить.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_eira.webp" alt="Эйра Мария Писада" loading="lazy"><figcaption>Эйра Мария Писада</figcaption></figure><p class="note"><span class="era">XVII в.</span>Нелюдимая и одинокая, но дружила с Аннет. По слухам, сбежала из монастыря с младенцем Хергом, спрятала его в колодце и больше не нашла.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_trial.webp" alt="Суд" loading="lazy"><figcaption>Суд</figcaption></figure><p class="note"><span class="era">XVII в.</span>Мастер масок убедил Вильяма и Эйру, что Аннет ведьма. На суде в церкви Эйра говорит о приворотных зельях, Вильям — что сестра травами убила мать, мастер — что она сожгла его дом. «Мама сама меня попросила!» Но зал требует костра.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_pyre.webp" alt="Костёр" loading="lazy"><span class="stamp threat">проклятие</span><figcaption>Костёр</figcaption></figure><p class="note"><span class="era">XVII в.</span>Аннет сжигают на площади. В огонь бросают её корзинку с фиолетовыми цветами. У Вильяма, Эйры и мастера носом идёт кровь: ненависть обернулась против ненавидящих. Проклятие ведьм нашло первую четвёрку.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_painting.webp" alt="Картина" loading="lazy"><figcaption>Картина</figcaption></figure><p class="note"><span class="era">XVII в.</span>Художник Фредерик Уайт написал казнь вместе с толпой, красками из морозника. Проклятие ушло в картину и забрало души тех троих. Сам Уайт сошёл с ума.</p></div>
+      <div class="item"><figure class="pol"><img src="img/t1_pet_form.webp" alt="Питомец Аннет" loading="lazy"><figcaption>Питомец Аннет</figcaption></figure><p class="note"><span class="era">XVII в.</span>Пытался спасти хозяйку и не успел. Проклятие задело и его: он бессмертен, меняет облик и ищет, как загладить вину. Миссис Хилл дарит его Саре.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_pisadeira.webp" alt="Писадейра" loading="lazy"><span class="stamp threat">1 сезон</span><figcaption>Писадейра</figcaption></figure><p class="note">Так стала чудовищем Эйра. Вселяется в людей, копирует голоса и лица, крадёт детей: ищет своего.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_john.webp" alt="Джон Холл" loading="lazy"><span class="stamp threat">2 сезон</span><figcaption>Джон Холл</figcaption></figure><p class="note">Так стал бессмертным слугой Фавна Вильям. Каждые 10 лет в кровавое полнолуние отдаёт ему четверых детей, чтобы видеться с матерью в Мире грёз.</p></div>
+      <div class="item"><figure class="pol"><img src="img/leg_mask.webp" alt="Человек в маске" loading="lazy"><span class="stamp threat">3 сезон</span><figcaption>Человек в маске</figcaption></figure><p class="note">Так стал хозяином цирка уродов мастер масок. Раз в 10 лет приезжает судить город: на «гнилых» людей надевает маски с соком морозника, и они забывают себя.</p></div>
+    </div>
+    <p class="src">Суд, костёр и проклятие рассказывает сам Человек в маске в последней серии ТС1.</p>
+  </div>
+
+  <div>
+    <h3 class="sub">Сюжет ТС1 по сезонам</h3>
+    <details class="retell"><summary>1 сезон: Писадейра (12 серий)</summary><div>
+    <div class="par">
+      <div><b>1996</b>Сара получает письмо: миссис Хилл приглашает её «на мои похороны». Сара возвращается в Сентфор, откуда уехала 10 лет назад, и встречает Кэнди, Дерека и Бобби. Ночуют в домике у озера.</div>
+      <div><b>Серии 1–4</b>Осень 1986-го. Сара с родителями переезжает из Балтимора. В лавке миссис Хилл кукла «выбирает» Кэнди. В лесу находят мёртвого Сэма: чёрные глаза, вокруг фиолетовые цветы. Кэнди тонет в трясине, а потом её утаскивают в стену длинные руки. Миссис Хилл дарит Саре питомца.</div>
+      <div><b>Серии 5–8</b>Кэнди пропала, комендантский час. В лесу алтарь из освежёванных животных, яма с чёрной массой. Уборщик запирает Сару в кладовке. Кукла оказывается копией Писадейры. В старых записях имя Эйры и адрес «Святой Иосиф», по нему находят монастырь. Кэнди находят и кладут в больницу.</div>
+      <div><b>Серии 9–10</b>Настоятельница рассказывает историю Эйры. Мисс Бейкер превращается в чудовище, уборщик гибнет. Лесник признаётся: 10 лет назад Писадейра вселилась в его жену. Бобби роняет ингалятор в колодец, а там детские кости и крестик.</div>
+      <div><b>Серии 11–12</b>Обряд на могиле Эйры не срабатывает: не хватает крестика. У колодца Сара возвращает Писадейре крестик, и та забирает своего ребёнка и уходит. В крови погибших находят CP-25 из фиолетовых цветов. Вечеринка в День Колумба. В 1996-м пропадает Кэнди.</div>
+    </div>
+    </div></details>
+    <details class="retell"><summary>2 сезон: Фавн и Джон (8 серий)</summary><div>
+    <div class="par">
+      <div><b>Серии 1–2</b>Девочке Меган Уайт в лесу дают фиолетовые конфеты, и она пропадает. Миссис Хилл уезжает и оставляет лавку на Сару. В лавке погром, Сара находит хрустальную иглу. В классе новенький Джон Холл. Бобби не приходит домой. Бандит «Чёрных драконов» говорит, что CP-25 ему дал «лесной лекарь».</div>
+      <div><b>Серии 3–4</b>Сон о Фавне, кровать в фиолетовых цветах. В лавке картина Фредерика Уайта «Фиолетовый яд». Сара читает в библиотеке книгу «Тени Сентфора», и библиотека сгорает. В музее картина Уайта с сожжением девушки, а игле больше четырёх веков.</div>
+      <div><b>Серии 5–6</b>Олени нападают в лесу, Сара видит идола Фавна. Надпись на игле: «Четыре сердца замрут». На фото выпускников 1930 года Джон не постарел.</div>
+      <div><b>Серии 7–8</b>Джон — это Вильям: Фавн дарит ему молодость за четверых детей каждые 10 лет. Майкл убивает Фавна иглой, тот деревенеет и покрывается трещинами. Бобби находят спящим среди цветов. В 1996-м с дерева падает маска, и Дерек говорит: «Он вернулся».</div>
+    </div>
+    </div></details>
+    <details class="retell"><summary>3 сезон: Человек в маске (10 серий)</summary><div>
+    <div class="par">
+      <div><b>Серии 1–4</b>Зима после Хеллоуина. Приезжает цирк уродов. Мама Сары исчезает, оставив записку, Сара живёт у Дерека и шерифа. За красной ширмой в клетке циркачка Атлатонин, и Сара узнаёт в ней маму. Вишня крадёт картину из музея для родителей Люка.</div>
+      <div><b>Серии 5–7</b>Особняк Морингов горит. Человек в маске убивает шерифа Никсона. Сара срывает маску с мамы и ночью бежит на поезде в Балтимор. В окне вагона Человек в маске.</div>
+      <div><b>Серии 8–9</b>1996. Кэнди и Бобби пропали. Адель рассказывает, что закопала картину. Её выкапывают, но ночью Человек в маске её забирает. Он и написал письма от имени миссис Хилл.</div>
+      <div><b>Серия 10</b>Костёр и виселицы в лесу. Человек рассказывает, что мать Дерека была у него в цирке и умерла в подворотне. История суда над Аннет. Дальше финал зависит от двух вещей: Смелость или Осторожность, и «сытый» или «голодный» демон.</div>
+    </div>
+    </div></details>
+    <details class="retell"><summary>Концовки</summary><div>
+    <div class="par">
+      <div><b>Что за демон</b>В 3 сезоне есть скрытая шкала. Жестокие и циничные ответы, интерес к шоу и согласие с Человеком в маске «кормят» демона. Сочувствие и отказ от соблазнов оставляют его голодным. Вместе со Смелостью или Осторожностью это решает, какая будет концовка.</div>
+      <div><b>Осторожность + голодный демон</b>Самая светлая. Сара вызывает из картины Аннет. Та просит прощения, Человек в маске разбивает свою маску. Проклятие снято, цирк уходит навсегда.</div>
+      <div><b>Смелость + голодный демон</b>Человек уйдёт на 10 лет, но заберёт одну жизнь. Сара отдаёт свою вместо Кэнди. В Мире грёз добрый Фавн возвращает её, или она остаётся там с Джоном. Цирк вернётся через 10 лет.</div>
+      <div><b>Смелость + сытый демон</b>Человека в маске сжигают на костре из морозника. Цирк уходит, но проклятие переходит на Сару, Кэнди, Дерека и Бобби. Это та самая «новая четвёрка» из теорий.</div>
+      <div><b>Осторожность + сытый демон</b>Человек зовёт Сару с собой. Согласится — уходит с цирком («Злодейка»). Откажется — носит прозрачную маску и после смерти станет циркачкой. Цирк вернётся через 10 лет.</div>
+      <div><b>Спецвыпуск</b>«Член цирковой семьи»: 10 лет спустя Сара живёт в цирке и выбирает, кого наказать маской.</div>
+    </div>
+    </div></details>
+  </div>
+
+  <div>
+    <h3 class="sub">Фан-факты</h3>
+    <div class="par">
+      <div><b>Херг</b>Имя ребёнка Писадейры наоборот читается «грех». Работает только по-русски.</div>
+      <div><b>Атлатонин</b>Ацтекская богиня-мать, покровительница рождённых с уродствами. Так зовут маму Сары в цирке.</div>
+      <div><b>Код 207</b>На листовке о пропаже Кэнди телефон с кодом (207). Это реальный код штата Мэн, где происходят почти все романы Стивена Кинга.</div>
+      <div><b>Писадейра существует</b>Это бразильский фольклор: худая старуха садится на грудь спящим. Так в народе объясняли сонный паралич.</div>
+      <div><b>Морозник существует</b>Helleborus, «рождественская роза». Ядовит, цветёт зимой, в древности им «лечили» безумие.</div>
+      <div><b>Et cum spiritu tuo</b>Заклинание из ТС1 — настоящая латынь из католической мессы: «И со духом твоим. Аминь».</div>
+      <div data-ep="14"><b>Сериал «Тьма»</b>Многие сравнивают ТС2 с Dark: письмо и смерть в начале, циклы времени, 1986 год, предприятие у опасного места. Фанаты заметили и жёлтый плащ Надин, как у Йонаса.</div>
+      <div><b>Книга</b>В 2024-м вышла книга «Тени Сентфора. Лагерь потерянных душ» о Саре, Кэнди, Дереке и Бобби после событий игры.</div>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<section data-tab="ts1" id="tab-ts1">
+  <div class="ts1-head"><h2>Связь с ТС1</h2><button class="radio" id="radio" type="button" aria-label="Старое радио"><svg viewBox="0 0 64 44" aria-hidden="true"><path d="M14 9L40 2" stroke="#8d8f96" stroke-width="1.4" stroke-linecap="round"/><circle cx="40" cy="2" r="1.6" fill="#8d8f96"/><rect x="2" y="9" width="60" height="33" rx="5" fill="#3a2f2a" stroke="#1d1714" stroke-width="1.2"/><rect x="6" y="13" width="30" height="25" rx="3" fill="#241c18"/><g stroke="#4d3f37" stroke-width="1.3"><path d="M9 17h24M9 21h24M9 25h24M9 29h24M9 33h24"/></g><rect x="40" y="13" width="18" height="8" rx="1.5" fill="#d9c27a" opacity=".85"/><path d="M42 17h14" stroke="#6b5420" stroke-width=".6"/><path class="needle" d="M47 13.5v7" stroke="#b3121e" stroke-width="1.2"/><circle cx="45" cy="31" r="4.2" fill="#1d1714" stroke="#6d5c50"/><circle cx="55" cy="31" r="4.2" fill="#1d1714" stroke="#6d5c50"/><path d="M45 31v-3M55 31l2-2" stroke="#b8aa98" stroke-width="1"/></svg></button><div class="radio-say" id="radio-say" hidden></div></div>
+  <p class="lead">Что из первой части уже всплыло во второй, и куда это может вести. Кто такие герои ТС1 и что там было, смотри во вкладке «ТС1».</p>
+  <div class="tc1-wrap">
+  <div>
+    <h3 class="sub">Что из ТС1 уже есть в ТС2</h3>
+    <div class="mx-bar">
+      <div class="chips" id="mx-themes" role="group" aria-label="Тема"></div>
+      <div class="chips" id="mx-levels" role="group" aria-label="Насколько уверены"></div>
+      <div class="mx-count" id="mx-count"></div>
+    </div>
+    <div class="mx-grid" id="mx-grid"></div>
+  </div>
+  <div data-ep="9">
+    <h3 class="sub">Гардероб Сары в комиссионке</h3>
+    <p class="lead">В 1.09 Надин примеряет одежду в комиссионке Итана Коулмана, бывшего гида из музея. Почти всё оттуда Сара носила в 1986-м: те же вещи, те же сочетания. Слева Сара в ТС1, справа Надин.</p>
+    <div class="wpairs"><div class="wpair"><figure><img src="img/t1_o_sweater.webp" alt="ТС1, 1.02" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_sweater.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_henley.webp" alt="ТС1, 1.02" loading="lazy"><figcaption>ТС1, 1.02</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_henley.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_patch.webp" alt="ТС1, 1.06" loading="lazy"><figcaption>ТС1, 1.06</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_patch.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_fringe.webp" alt="ТС1, 1.09" loading="lazy"><figcaption>ТС1, 1.09</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_fringe.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_plaid.webp" alt="ТС1, 3.05" loading="lazy"><figcaption>ТС1, 3.05</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_plaid.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_flannel.webp" alt="ТС1, 3.06" loading="lazy"><figcaption>ТС1, 3.06</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_flannel.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div><div class="wpair"><figure><img src="img/t1_o_bomber.webp" alt="ТС1" loading="lazy"><figcaption>ТС1</figcaption></figure><svg class="warr" viewBox="0 0 60 40" aria-hidden="true"><path d="M4 26 C 18 6, 38 6, 52 20" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round"/><path d="M42 12 L53 21 L40 26" fill="none" stroke="#e0473a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><figure><img src="img/t2_o_bomber.webp" alt="ТС2, 1.09" loading="lazy"><figcaption>ТС2, 1.09</figcaption></figure></div></div>
+  </div>
+
+
+  <div>
+    <h3 class="sub">Досье: фиолетовый морозник</h3>
+    <div class="dossier">
+      <figure class="pol" style="--r:-1.2deg;max-width:220px"><img src="img/leg_flower.webp" alt="Фиолетовый морозник" loading="lazy"><figcaption>Что он делает с людьми</figcaption></figure>
+      <ul>
+        <li>Проводник в <b>Мир грёз</b>, откуда пришли фавны и куда уходят умершие.</li>
+        <li>Удушье, реалистичные галлюцинации, глубокий сон. Если цветок сорвать, человек приходит в себя.</li>
+        <li><b>Достаточно коснуться</b>, и яд уже в крови.</li>
+        <li>Из него делали <b>CP-25</b>: от наркотика чернели глаза. Делал его «лесной лекарь».</li>
+        <li>Из него краска Фредерика Уайта и маски цирка: надевший забывает себя, а тело меняется.</li>
+        <li>Детей у идола Фавна укладывали спать в углубления, заросшие цветком.</li>
+        <li data-ep="13">В ТС2 Даррен: пахнет сладковато, в высокой концентрации как кровь. Парень, который вошёл в зону без маски, умер.</li>
+        <li data-ep="15">Даррен: до эпидемии цветок не был таким токсичным, а потом «озверел будто по команде». Сейчас это «почти биологическое оружие».</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="sub">Проклятия из ТС1 и что мы видим в ТС2</h3>
+    <div class="curses">
+      <div class="curse"><img src="img/ts1_sara.webp" alt="Сара" loading="lazy"><div><div class="who">Сара</div><blockquote>«Будет она везде, куда ты ступишь, в облике тени. Смерть людей, природы и всего сущего».</blockquote></div><div class="arrow">→</div><img src="img/miranda_shadow.webp" alt="Тень за Мирандой" loading="lazy" style="object-position:40% 50%"><div class="tc2"><b>Тень</b> за Мирандой на снимке Элис, в туалете, на рисунке. «Смерть природы» похожа на мёртвую зону.</div></div>
+      <div class="curse"><img src="img/ts1_candy.webp" alt="Кэнди" loading="lazy"><div><div class="who">Кэнди</div><blockquote>«Плач твой будут слышать потерянные и отверженные. И будут идти на него, не зная, что идут навстречу погибели своей».</blockquote></div><div class="arrow">→</div><img src="img/candy15.webp" alt="Кэнди в коляске" loading="lazy"><div class="tc2"><b>Плач.</b> В 1.15 Надин теряет сознание, друзья переносят её в заброшенную больницу. Там она слышит плач, идёт на него и видит девочку в инвалидной коляске. Похоже, это Кэнди.</div></div>
+      <div class="curse"><img src="img/ts1_bobby.webp" alt="Бобби" loading="lazy"><div><div class="who">Бобби</div><blockquote>«Ты будешь стремиться вырваться и в своём желании погубишь немало людей… Деревья станут твоим домом».</blockquote></div><div class="arrow">→</div><div class="blank">?</div><div class="tc2"><b>Пока неясно.</b><span class="pencil" data-from="15">может, это ветви, которыми оплели Сову в больнице (1.15)? «Деревья станут твоим домом»… <em>версия подписчиков</em></span></div></div>
+      <div class="curse"><img src="img/ts1_derek.webp" alt="Дерек" loading="lazy"><div><div class="who">Дерек</div><blockquote>«Ты познаешь все муки бессмертия и сойдёшь от этого с ума. Будешь блуждать по миру и наказывать невинных за свои мучения».</blockquote></div><div class="arrow">→</div><div class="blank">?</div><div class="tc2"><b>Пока неясно.</b> Бессмертный может жить среди людей под другим именем.<span class="pencil" data-from="9">а может, это Говард? Свой возраст он скрывает (1.09)… хотя сценаристка говорила, что Говарду 20. <em>версия подписчиков</em></span></div></div>
+    </div>
+    <p class="src">Откуда проклятия: в концовке «Смелость + сытый демон» Сара и друзья сжигают Человека в маске на костре из морозника, и проклятие переходит на них. По одной из версий, ТС2 продолжает именно эту концовку, но прямых доказательств пока нет.</p>
+  </div>
+
+  <div>
+    <h3 class="sub">Фанатские догадки о родстве</h3>
+    <div class="par">
+      <div><b>Поппи и Декс — дети «драконов»</b> Монета банды у Декса, шрам Поппи от ножа пьяного отца. В отцы прочат Бурого, Вишню или Аарона. Подробно — в «Теориях».</div>
+      <div><b>Кэнди — мама Руди</b> Доводов пока нет.</div>
+      <div><b>Мама Миранды — дочь лесника</b> Похожа внешне, имени у неё нет. Против: по канону дочь лесника Маргарет умерла маленькой.</div>
+      <div><b>Говард — сын Человека в маске</b> Скрывает возраст, приехал в Сентфор вслед за отцом.</div>
+      <div data-ep="13"><b>Миссис Тёрнер — родня Бобби</b> Фамилия та же, что у Бобби и Майкла. А в ТС1 есть их мама, миссис Тёрнер.</div>
+      <div data-ep="13"><b>Фредди Браун — родня Малкольма</b> Фредди Браун пропал в 1986-м, Малкольм Браун — в 2023-м. Одна фамилия.</div>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<!-- GAME -->
+<section data-tab="game" id="tab-game">
+  <h2>Не дай им дойти</h2>
+  <p class="lead">Мини-игра: ночь в пустой школе, из конца коридора к Надин ползут существа. Свети фонариком, жми на них, чтобы сжечь, и лови морозники.</p>
+  <div class="game" id="game"></div>
+  <div id="ball-wrap" class="ball-wrap" data-ep="1" hidden>
+    <h2>Броски с Руди</h2>
+    <p class="lead">Вечер, задний двор. Руди обещал не смеяться. Потяни мяч вниз, прицелься и отпусти.</p>
+    <div class="ball" id="ball"></div>
+  </div>
+</section>
+
+<div class="vhs" id="vhs" hidden><div class="vhs-box" role="dialog" aria-modal="true" aria-label="Запись">
+  <div class="vhs-tv" id="vhs-tv">
+    <video id="vhs-v" playsinline preload="metadata"></video>
+    <div class="vhs-deck" id="vhs-deck" hidden><img id="vhs-cas" alt="" hidden><div class="vwin"><div class="reel l"><svg viewBox="-50 -50 100 100" aria-hidden="true"><circle class="pack" r="44"/><g class="hub"><circle r="17" class="hb"/><circle r="6" class="hc"/><path d="M0-17V-8M14.7-8.5L6.9-4M14.7 8.5L6.9 4M0 17V8M-14.7 8.5L-6.9 4M-14.7-8.5L-6.9-4"/></g></svg></div><div class="vtape"></div><div class="reel r"><svg viewBox="-50 -50 100 100" aria-hidden="true"><circle class="pack" r="44"/><g class="hub"><circle r="17" class="hb"/><circle r="6" class="hc"/><path d="M0-17V-8M14.7-8.5L6.9-4M14.7 8.5L6.9 4M0 17V8M-14.7 8.5L-6.9 4M-14.7-8.5L-6.9-4"/></g></svg></div></div><div class="vcount" id="vhs-count">0:00:00</div></div>
+    <canvas class="vhs-noise" id="vhs-noise" width="320" height="240"></canvas>
+    <div class="vhs-scan"></div>
+    <div class="vhs-osd" id="vhs-osd">▶ PLAY</div>
+    <div class="vhs-date" id="vhs-date"></div>
+    <div class="vhs-sub" id="vhs-sub"></div>
+  </div>
+  <div class="vhs-ctrl"><button type="button" id="vhs-play">❚❚ Пауза</button><button type="button" id="vhs-again">⟲ Сначала</button><button type="button" id="vhs-x">✕ Выключить</button></div>
+  <p class="vhs-note" id="vhs-note" hidden></p>
+</div></div>
+<div class="pmodal" id="pmodal" hidden><div class="pm-card" role="dialog" aria-modal="true" aria-labelledby="pm-title"><button class="pm-close" id="pm-close" type="button" aria-label="Закрыть">✕</button><div id="pm-body"></div></div></div>
+<div class="gate" id="ep-gate" hidden><div class="gate-card" id="ep-step"><h2>До какой серии ты дочитал(а)?</h2><p>Всё, что позже, будет размыто. Выбор можно поменять в любой момент на панели сверху. Названия серий скрыты, чтобы не спойлерить: наведи на номер, чтобы подсмотреть.</p><div id="gate-btns"></div></div><div class="gate-card" id="look-step" hidden><h2>Как выглядят твои герои?</h2><p>Внешность выбирается в начале игры. Покажем на доске именно твою версию.</p><div id="look-groups"></div><button class="gate-done" id="look-done" type="button">Готово</button></div></div>
+<footer><p class="ft-full">Доска пополняется по мере чтения. Фанатский разбор новеллы «Тени Сентфора 2: Вне времени» (Клуб Романтики). Не связан с разработчиками. Скриншоты из игры принадлежат их правообладателям. Теории других фанатов пересказаны своими словами, источники перечислены во вкладке «Теории». Новости, разборы новых серий и обратная связь — в <a href="https://t.me/delo_sentfora" target="_blank" rel="noopener">Телеграм-канале</a>. Если вы правообладатель и хотите, чтобы что-то убрали, напишите туда же.</p><p class="ft-s">Фанатский разбор, не связан с разработчиками · <a href="https://t.me/delo_sentfora" target="_blank" rel="noopener">Телеграм-канал</a></p><details class="ft-d"><summary>Права и источники</summary><p>Доска пополняется по мере чтения. Фанатский разбор новеллы «Тени Сентфора 2: Вне времени» (Клуб Романтики). Скриншоты из игры принадлежат их правообладателям. Теории других фанатов пересказаны своими словами, источники перечислены во вкладке «Теории». Если вы правообладатель и хотите, чтобы что-то убрали, напишите в Телеграм-канал.</p></details></footer>
+</div>
+<script src="js/links-ts1.js?v=eb071590"></script>
+<script src="js/board.js?v=1e0eed85"></script>
+<script src="js/inv.js?v=0945f879"></script>
+<script src="js/gazeta.js?v=9ca213d1"></script>
+<script src="js/screamer.js?v=4f39889c"></script>
+<script src="js/shadow.js?v=7d622fa9"></script>
+<script src="js/extras.js?v=b7ea7b13"></script>
+<script src="js/sidney.js?v=35087123"></script>
+<script src="js/recap.js?v=3c8dea71"></script>
+<script src="js/halloween.js?v=a0cdffd8"></script>
+<script src="js/f13.js?v=69f62210"></script>
+<script src="js/game.js?v=37a1dcc7"></script>
+<script src="js/ball.js?v=7ae944a0"></script>
+<script src="js/map.js?v=f5111284"></script>
+<script src="js/sb.js?v=e236c901"></script>
+<script src="js/transfer.js?v=e0566886"></script>
+<script src="js/gossip.js?v=f9f32899"></script>
+<script src="js/poppy.js?v=9151c799"></script>
+<script src="js/hw.js?v=671a5cf4"></script>
+<script src="js/eggs2.js?v=b142d32e"></script>
+<script src="js/fx.js?v=cabf4b53"></script>
+<script src="js/pred.js?v=5c014607"></script>
+
+
+<script src="js/anchors.js?v=9e941ee6"></script>
+<script src="js/ui.js?v=c29a296a"></script>
+<script src="js/nav.js?v=ad02b708"></script>
+<script src="js/lang.js?v=64510ebb"></script>
+</body>
+</html>

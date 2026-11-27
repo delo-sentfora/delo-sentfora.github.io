@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /sb/
+
+Sitemap: https://delo-sentfora.vercel.app/sitemap.xml

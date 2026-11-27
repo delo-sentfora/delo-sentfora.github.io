@@ -1,0 +1,16 @@
+{
+  "name": "Дело Сентфора",
+  "short_name": "Дело Сентфора",
+  "description": "Фанатский разбор «Теней Сентфора 2»: люди, улики, теории, доска улик и блог Поппи",
+  "lang": "ru",
+  "start_url": "/?app=1",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#15181e",
+  "theme_color": "#15181e",
+  "icons": [
+    { "src": "/icons/app-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/app-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/app-mask-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
